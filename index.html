@@ -209,6 +209,17 @@
             margin-bottom: 20px;
             color: #dee2e6;
         }
+        footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 10px 20px;
+            color: #6c757d;
+            font-size: 0.85rem;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.8); /* optional translucent background */
+        }
+
     </style>
 </head>
 <body>
@@ -216,20 +227,20 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-file-code me-2"></i>AG JSON Summary Comparator for 
+                <i class="fas fa-file-code me-2"></i>AG JSON Summary Comparator
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                <ul class="navbar-nav ms-auto">
+                    <!-- <li class="nav-item">
                         <a class="nav-link active" href="#"><i class="fas fa-home me-1"></i> Home</a>
+                    </li> -->
+                    <li class="nav-item" title="This tool is compatible only with AG_Video_Intelligence_Service_v1. Please contact Krunal Rana if you encounter any difficulties.">
+                        <a class="nav-link" href="#"><i class="fas fa-info-circle me-1"></i>AG_Video_Intelligence_Service_v1</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-info-circle me-1"></i> About</a>
-                    </li>
-                </ul> -->
+                </ul>
             </div>
         </div>
     </nav>
@@ -310,6 +321,10 @@
             </div>
         </div>
     </div>
+        <!-- Footer -->
+    <footer style="position: fixed; bottom: 0; right: 0; padding: 10px 20px; background-color: transparent; color: #6c757d; font-size: 0.85rem;">
+        Made by Team Analytics Ahaguru :)
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
