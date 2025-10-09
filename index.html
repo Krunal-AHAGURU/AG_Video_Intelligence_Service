@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Summary Comparison Tool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+            --success-color: #4cc9f0;
+            --warning-color: #f72585;
+        }
+        
+        body {
+            background-color: #f5f7fb;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--dark-color);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-header {
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 12px 12px 0 0 !important;
+            font-weight: 600;
+        }
+        
+        .file-item {
+            border-left: 4px solid var(--primary-color);
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 0 8px 8px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .file-item:hover {
+            background-color: #e9ecef;
+            transform: translateX(5px);
+        }
+        
+        .file-item.active {
+            border-left-color: var(--warning-color);
+            background-color: #fff3cd;
+        }
+        
+        .summary-section {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .summary-section:last-child {
+            border-bottom: none;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-title i {
+            margin-right: 10px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.85rem;
+        }
+        
+        .qa-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .qa-question {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        .keyframe-item {
+            padding: 10px 15px;
+            border-left: 3px solid var(--success-color);
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+        }
+        
+        .chapter-item {
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--warning-color);
+            background-color: #f8f9fa;
+        }
+        
+        .timestamp-item {
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-left: 3px solid #6c757d;
+            background-color: #f8f9fa;
+        }
+        
+        .upload-area {
+            border: 2px dashed #dee2e6;
+            border-radius: 12px;
+            padding: 40px 20px;
+            text-align: center;
+            background-color: white;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .upload-area:hover {
+            border-color: var(--primary-color);
+            background-color: #f8f9ff;
+        }
+        
+        .upload-area i {
+            font-size: 48px;
+            color: #adb5bd;
+            margin-bottom: 15px;
+        }
+        
+        .comparison-view {
+            display: none;
+        }
+        
+        .comparison-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px 8px 0 0;
+            font-weight: 600;
+        }
+        
+        .comparison-item {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .comparison-item:last-child {
+            border-bottom: none;
+        }
+        
+        .file-name {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #6c757d;
+        }
+        
+        .empty-state i {
+            font-size: 64px;
+            margin-bottom: 20px;
+            color: #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-file-code me-2"></i>JSON Summary Comparator
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fas fa-home me-1"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-info-circle me-1"></i> About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row">
+            <!-- File Upload Section -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-upload me-2"></i>Upload JSON Files
+                    </div>
+                    <div class="card-body">
+                        <div class="upload-area" id="uploadArea">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <h5>Drag & Drop Files Here</h5>
+                            <p class="text-muted">or click to browse</p>
+                            <input type="file" id="fileInput" multiple accept=".json" style="display: none;">
+                            <button class="btn btn-primary mt-2" id="browseBtn">
+                                <i class="fas fa-folder-open me-2"></i>Browse Files
+                            </button>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h6 class="section-title">
+                                <i class="fas fa-file-alt"></i>Uploaded Files
+                            </h6>
+                            <div id="fileList">
+                                <div class="empty-state">
+                                    <i class="fas fa-folder-open"></i>
+                                    <p>No files uploaded yet</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="d-grid gap-2 mt-3">
+                            <button class="btn btn-outline-primary" id="compareBtn" disabled>
+                                <i class="fas fa-exchange-alt me-2"></i>Compare Selected Files
+                            </button>
+                            <button class="btn btn-outline-secondary" id="clearBtn">
+                                <i class="fas fa-trash me-2"></i>Clear All
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- File Content Display -->
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-file-code me-2"></i>File Summary</span>
+                        <span class="badge bg-secondary" id="fileNameBadge">No file selected</span>
+                    </div>
+                    <div class="card-body">
+                        <div id="fileContent">
+                            <div class="empty-state">
+                                <i class="fas fa-file-alt"></i>
+                                <p>Select a file to view its content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Comparison View -->
+                <div class="card comparison-view" id="comparisonView">
+                    <div class="card-header">
+                        <i class="fas fa-exchange-alt me-2"></i>File Comparison
+                    </div>
+                    <div class="card-body">
+                        <div class="row" id="comparisonContainer">
+                            <!-- Comparison content will be dynamically generated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            let uploadedFiles = [];
+            let selectedFiles = [];
+            
+            // File upload area click handler
+            $('#uploadArea, #browseBtn').on('click', function() {
+                $('#fileInput').click();
+            });
+            
+            // File input change handler
+            $('#fileInput').on('change', function(e) {
+                const files = e.target.files;
+                handleFiles(files);
+            });
+            
+            // Drag and drop handlers
+            $('#uploadArea').on('dragover', function(e) {
+                e.preventDefault();
+                $(this).addClass('bg-light');
+            });
+            
+            $('#uploadArea').on('dragleave', function(e) {
+                e.preventDefault();
+                $(this).removeClass('bg-light');
+            });
+            
+            $('#uploadArea').on('drop', function(e) {
+                e.preventDefault();
+                $(this).removeClass('bg-light');
+                const files = e.originalEvent.dataTransfer.files;
+                handleFiles(files);
+            });
+            
+            // File selection handler
+            $(document).on('click', '.file-item', function() {
+                const fileId = $(this).data('id');
+                const file = uploadedFiles.find(f => f.id === fileId);
+                
+                if (file) {
+                    // Toggle selection
+                    if ($(this).hasClass('active')) {
+                        $(this).removeClass('active');
+                        selectedFiles = selectedFiles.filter(f => f.id !== fileId);
+                    } else {
+                        $(this).addClass('active');
+                        selectedFiles.push(file);
+                    }
+                    
+                    // Update compare button state
+                    $('#compareBtn').prop('disabled', selectedFiles.length < 2);
+                    
+                    // Display file content
+                    displayFileContent(file);
+                }
+            });
+            
+            // Compare button handler
+            $('#compareBtn').on('click', function() {
+                if (selectedFiles.length >= 2) {
+                    displayComparison(selectedFiles);
+                }
+            });
+            
+            // Clear button handler
+            $('#clearBtn').on('click', function() {
+                uploadedFiles = [];
+                selectedFiles = [];
+                updateFileList();
+                $('#fileContent').html(`
+                    <div class="empty-state">
+                        <i class="fas fa-file-alt"></i>
+                        <p>Select a file to view its content</p>
+                    </div>
+                `);
+                $('#fileNameBadge').text('No file selected');
+                $('#comparisonView').hide();
+                $('#compareBtn').prop('disabled', true);
+            });
+            
+            // Handle file processing
+            function handleFiles(files) {
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    
+                    // Check if file is JSON
+                    if (file.type !== 'application/json' && !file.name.endsWith('.json')) {
+                        alert('Please upload only JSON files.');
+                        continue;
+                    }
+                    
+                    const reader = new FileReader();
+                    
+                    reader.onload = function(e) {
+                        try {
+                            const content = JSON.parse(e.target.result);
+                            
+                            // Add file to uploaded files
+                            const fileObj = {
+                                id: Date.now() + i,
+                                name: file.name,
+                                content: content,
+                                timestamp: new Date().toLocaleString()
+                            };
+                            
+                            uploadedFiles.push(fileObj);
+                            updateFileList();
+                            
+                        } catch (error) {
+                            alert(`Error parsing JSON file: ${file.name}. Please make sure it's a valid JSON file.`);
+                        }
+                    };
+                    
+                    reader.readAsText(file);
+                }
+                
+                // Reset file input
+                $('#fileInput').val('');
+            }
+            
+            // Update file list display
+            function updateFileList() {
+                const fileList = $('#fileList');
+                
+                if (uploadedFiles.length === 0) {
+                    fileList.html(`
+                        <div class="empty-state">
+                            <i class="fas fa-folder-open"></i>
+                            <p>No files uploaded yet</p>
+                        </div>
+                    `);
+                    return;
+                }
+                
+                let html = '';
+                uploadedFiles.forEach(file => {
+                    const isSelected = selectedFiles.some(f => f.id === file.id);
+                    html += `
+                        <div class="file-item ${isSelected ? 'active' : ''}" data-id="${file.id}">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <i class="fas fa-file-code text-primary me-2"></i>
+                                    <strong>${file.name}</strong>
+                                </div>
+                                <small class="text-muted">${file.timestamp}</small>
+                            </div>
+                            <small class="text-muted">${file.content.uploaded_file_name || 'Unknown file'}</small>
+                        </div>
+                    `;
+                });
+                
+                fileList.html(html);
+            }
+            
+            // Display file content
+            function displayFileContent(file) {
+                $('#fileNameBadge').text(file.name);
+                
+                const content = file.content;
+                const summaryData = content.summary_data || {};
+                
+                let html = `
+                    <div class="summary-section">
+                        <h5 class="section-title">
+                            <i class="fas fa-info-circle"></i>File Information
+                        </h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Uploaded File:</strong> ${content.uploaded_file_name || 'N/A'}</p>
+                                <p><strong>Generated Timestamp:</strong> ${content.generated_timestamp || 'N/A'}</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Prompt Used:</strong></p>
+                                <div class="bg-light p-2 rounded" style="max-height: 150px; overflow-y: auto;">
+                                    <small>${content.prompt_used || 'N/A'}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Overall Summary
+                if (summaryData.overall_summary) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-file-alt"></i>Overall Summary
+                            </h5>
+                            <p>${summaryData.overall_summary}</p>
+                        </div>
+                    `;
+                }
+                
+                // Starting Build Up
+                if (summaryData.starting_build_up) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-play-circle"></i>Starting Build Up
+                            </h5>
+                            <p>${summaryData.starting_build_up}</p>
+                        </div>
+                    `;
+                }
+                
+                // Timestamp-wise Summary
+                if (summaryData.timestamp_wise_summary && summaryData.timestamp_wise_summary.length > 0) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-clock"></i>Timestamp-wise Summary
+                            </h5>
+                    `;
+                    
+                    summaryData.timestamp_wise_summary.forEach(item => {
+                        html += `
+                            <div class="timestamp-item">
+                                <div class="d-flex justify-content-between">
+                                    <strong>${item.start_time} - ${item.end_time}</strong>
+                                </div>
+                                <p class="mb-0">${item.summary}</p>
+                            </div>
+                        `;
+                    });
+                    
+                    html += `</div>`;
+                }
+                
+                // End Summary
+                if (summaryData.end_summary) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-flag-checkered"></i>End Summary
+                            </h5>
+                            <p>${summaryData.end_summary}</p>
+                        </div>
+                    `;
+                }
+                
+                // Chapters
+                if (summaryData.chapters && summaryData.chapters.length > 0) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-bookmark"></i>Chapters
+                            </h5>
+                    `;
+                    
+                    summaryData.chapters.forEach(chapter => {
+                        html += `
+                            <div class="chapter-item">
+                                <h6>${chapter.chapter_title}</h6>
+                                <p><strong>Time:</strong> ${chapter.start_time} - ${chapter.end_time}</p>
+                                <p class="mb-0">${chapter.description}</p>
+                            </div>
+                        `;
+                    });
+                    
+                    html += `</div>`;
+                }
+                
+                // Tags
+                if (summaryData.tags && summaryData.tags.length > 0) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-tags"></i>Tags
+                            </h5>
+                    `;
+                    
+                    summaryData.tags.forEach(tag => {
+                        html += `<span class="tag">${tag}</span>`;
+                    });
+                    
+                    html += `</div>`;
+                }
+                
+                // Keyframes
+                if (summaryData.keyframes && summaryData.keyframes.length > 0) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-images"></i>Keyframes
+                            </h5>
+                    `;
+                    
+                    summaryData.keyframes.forEach(keyframe => {
+                        html += `
+                            <div class="keyframe-item">
+                                <div class="d-flex justify-content-between">
+                                    <strong>${keyframe.timestamp}</strong>
+                                </div>
+                                <p class="mb-0">${keyframe.description}</p>
+                            </div>
+                        `;
+                    });
+                    
+                    html += `</div>`;
+                }
+                
+                // Q&A
+                if (summaryData["Q&A"] && summaryData["Q&A"].length > 0) {
+                    html += `
+                        <div class="summary-section">
+                            <h5 class="section-title">
+                                <i class="fas fa-question-circle"></i>Q&A
+                            </h5>
+                    `;
+                    
+                    summaryData["Q&A"].forEach(qa => {
+                        html += `
+                            <div class="qa-item">
+                                <div class="qa-question">${qa.question}</div>
+                                <div class="qa-answer mt-2">${qa.answer}</div>
+                            </div>
+                        `;
+                    });
+                    
+                    html += `</div>`;
+                }
+                
+                $('#fileContent').html(html);
+                $('#comparisonView').hide();
+            }
+            
+            // Display comparison view
+            function displayComparison(files) {
+                $('#comparisonView').show();
+                
+                let html = '';
+                
+                // Compare overall summaries
+                html += `
+                    <div class="comparison-item">
+                        <h5 class="section-title">
+                            <i class="fas fa-file-alt"></i>Overall Summary Comparison
+                        </h5>
+                        <div class="row">
+                `;
+                
+                files.forEach(file => {
+                    html += `
+                        <div class="col-md-${12 / files.length}">
+                            <div class="comparison-header">
+                                <i class="fas fa-file me-2"></i>${file.name}
+                            </div>
+                            <div class="p-3 bg-light rounded-bottom" style="max-height: 300px; overflow-y: auto;">
+                                <p>${file.content.summary_data.overall_summary || 'N/A'}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += `</div></div>`;
+                
+                // Compare tags
+                html += `
+                    <div class="comparison-item">
+                        <h5 class="section-title">
+                            <i class="fas fa-tags"></i>Tags Comparison
+                        </h5>
+                        <div class="row">
+                `;
+                
+                files.forEach(file => {
+                    const tags = file.content.summary_data.tags || [];
+                    html += `
+                        <div class="col-md-${12 / files.length}">
+                            <div class="comparison-header">
+                                <i class="fas fa-file me-2"></i>${file.name}
+                            </div>
+                            <div class="p-3 bg-light rounded-bottom">
+                                ${tags.length > 0 ? 
+                                    tags.map(tag => `<span class="tag">${tag}</span>`).join('') : 
+                                    '<p class="text-muted">No tags available</p>'
+                                }
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += `</div></div>`;
+                
+                // Compare chapters
+                html += `
+                    <div class="comparison-item">
+                        <h5 class="section-title">
+                            <i class="fas fa-bookmark"></i>Chapters Comparison
+                        </h5>
+                        <div class="row">
+                `;
+                
+                files.forEach(file => {
+                    const chapters = file.content.summary_data.chapters || [];
+                    html += `
+                        <div class="col-md-${12 / files.length}">
+                            <div class="comparison-header">
+                                <i class="fas fa-file me-2"></i>${file.name}
+                            </div>
+                            <div class="p-3 bg-light rounded-bottom" style="max-height: 400px; overflow-y: auto;">
+                                ${chapters.length > 0 ? 
+                                    chapters.map(chapter => `
+                                        <div class="mb-3">
+                                            <h6>${chapter.chapter_title}</h6>
+                                            <p><small>${chapter.start_time} - ${chapter.end_time}</small></p>
+                                            <p class="mb-0">${chapter.description}</p>
+                                        </div>
+                                    `).join('') : 
+                                    '<p class="text-muted">No chapters available</p>'
+                                }
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += `</div></div>`;
+                
+                $('#comparisonContainer').html(html);
+            }
+        });
+    </script>
+</body>
+</html>
