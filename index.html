@@ -81,6 +81,7 @@
             margin-bottom: 15px;
             display: flex;
             align-items: center;
+            height: 50px !important;
         }
         
         .section-title i {
@@ -137,6 +138,7 @@
             background-color: white;
             transition: all 0.3s ease;
             cursor: pointer;
+            height: 200px !important;
         }
         
         .upload-area:hover {
@@ -214,20 +216,20 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-file-code me-2"></i>JSON Summary Comparator
+                <i class="fas fa-file-code me-2"></i>AG JSON Summary Comparator for 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <!-- <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="#"><i class="fas fa-home me-1"></i> Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-info-circle me-1"></i> About</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </nav>
@@ -235,9 +237,9 @@
     <div class="container my-4">
         <div class="row">
             <!-- File Upload Section -->
-            <div class="col-lg-4">
+            <div class="row">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header" style="margin-top: 10px; margin-left:0px; margin-right:0px;">
                         <i class="fas fa-upload me-2"></i>Upload JSON Files
                     </div>
                     <div class="card-body">
@@ -246,9 +248,9 @@
                             <h5>Drag & Drop Files Here</h5>
                             <p class="text-muted">or click to browse</p>
                             <input type="file" id="fileInput" multiple accept=".json" style="display: none;">
-                            <button class="btn btn-primary mt-2" id="browseBtn">
+                            <!-- <button class="btn btn-primary mt-2" id="browseBtn">
                                 <i class="fas fa-folder-open me-2"></i>Browse Files
-                            </button>
+                            </button> -->
                         </div>
                         
                         <div class="mt-4">
@@ -263,22 +265,25 @@
                             </div>
                         </div>
                         
-                        <div class="d-grid gap-2 mt-3">
-                            <button class="btn btn-outline-primary" id="compareBtn" disabled>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary" id="compareBtn" disabled>
                                 <i class="fas fa-exchange-alt me-2"></i>Compare Selected Files
                             </button>
                             <button class="btn btn-outline-secondary" id="clearBtn">
                                 <i class="fas fa-trash me-2"></i>Clear All
                             </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <!-- File Content Display -->
-            <div class="col-lg-8">
-                <div class="card">
-                    <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="row">
+                <br>
+                <div class="card col-12" >
+                    <div class="card-header d-flex justify-content-between align-items-center" style="margin-top: 10px; margin-left:0px; margin-right:0px;">
                         <span><i class="fas fa-file-code me-2"></i>File Summary</span>
                         <span class="badge bg-secondary" id="fileNameBadge">No file selected</span>
                     </div>
@@ -291,9 +296,8 @@
                         </div>
                     </div>
                 </div>
-                
                 <!-- Comparison View -->
-                <div class="card comparison-view" id="comparisonView">
+                <div class="card comparison-view col-12" id="comparisonView" style="margin-top: 10px; margin-left:0px; margin-right:0px;">
                     <div class="card-header">
                         <i class="fas fa-exchange-alt me-2"></i>File Comparison
                     </div>
