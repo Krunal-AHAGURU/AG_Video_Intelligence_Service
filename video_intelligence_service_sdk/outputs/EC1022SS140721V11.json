@@ -1,0 +1,82 @@
+{
+  "audio_segments": [
+    {
+      "id": 1,
+      "transcript": "Now, we have given this component C4, H10O which is a molecular formula and they have mentioned",
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:13.560"
+    },
+    {
+      "id": 2,
+      "transcript": "that this is an alcohol and how many isomer are possible for the alcohol, so now let",
+      "start_time": "00:00:13.560",
+      "end_time": "00:00:20.600"
+    },
+    {
+      "id": 3,
+      "transcript": "let us start writing these structures, first let us take the longest chain C4, so it could",
+      "start_time": "00:00:20.600",
+      "end_time": "00:00:27.240"
+    },
+    {
+      "id": 4,
+      "transcript": "be CH2O which, so C4 H10O this is one alcohol, so this is 4, so it is butane butane",
+      "start_time": "00:00:27.240",
+      "end_time": "00:00:42.299"
+    },
+    {
+      "id": 5,
+      "transcript": "one on, now let us change this OH to the next position, so we can write the other structure",
+      "start_time": "00:00:42.299",
+      "end_time": "00:00:50.160"
+    },
+    {
+      "id": 6,
+      "transcript": "like this CH3, CH2, CHO, CH3, so this will be butane to all, now we will see whether",
+      "start_time": "00:00:50.160",
+      "end_time": "00:01:07.359"
+    },
+    {
+      "id": 7,
+      "transcript": "we can write some more structures, so we will branch this longest chain again, so we will",
+      "start_time": "00:01:07.359",
+      "end_time": "00:01:12.719"
+    },
+    {
+      "id": 8,
+      "transcript": "see, CH3, COH, let me branch it here, CH3, so it will be CH, CH2OH, so now there is a metal",
+      "start_time": "00:01:12.719",
+      "end_time": "00:01:30.079"
+    },
+    {
+      "id": 9,
+      "transcript": "substituent here, so this will become, so this will be our longest chain now, so this will",
+      "start_time": "00:01:30.079",
+      "end_time": "00:01:35.280"
+    },
+    {
+      "id": 10,
+      "transcript": "be 1, 2, so 2 metal, propane one on, so there can be another branching also CH3, so this",
+      "start_time": "00:01:35.280",
+      "end_time": "00:01:59.159"
+    },
+    {
+      "id": 11,
+      "transcript": "is another one possible, so this will be our longest chain now, in the second position there",
+      "start_time": "00:01:59.159",
+      "end_time": "00:02:05.599"
+    },
+    {
+      "id": 12,
+      "transcript": "is a metal group and OH group now, so we can write this as 2 metal propane 2 all, so",
+      "start_time": "00:02:05.599",
+      "end_time": "00:02:18.240"
+    },
+    {
+      "id": 13,
+      "transcript": "totally there are 4 isomers for this alcohol,",
+      "start_time": "00:02:18.240",
+      "end_time": "00:02:22.520"
+    }
+  ]
+}

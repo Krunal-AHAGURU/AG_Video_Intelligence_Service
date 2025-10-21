@@ -1,0 +1,376 @@
+{
+  "audio_segments": [
+    {
+      "id": 1,
+      "transcript": "So, now, what is metamirism, they are composed having the same molecular formula and the",
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:13.120"
+    },
+    {
+      "id": 2,
+      "transcript": "same functional group also, but they differ only in the size of the alkyl groups on both",
+      "start_time": "00:00:13.120",
+      "end_time": "00:00:20.559"
+    },
+    {
+      "id": 3,
+      "transcript": "size of a polyvalent atom or group. Suppose, I take this example C 4 H 10 O, the polyvalent",
+      "start_time": "00:00:20.559",
+      "end_time": "00:00:27.519"
+    },
+    {
+      "id": 4,
+      "transcript": "atom here is oxygen. So, now, first let us start one by one, first let us calculate",
+      "start_time": "00:00:27.519",
+      "end_time": "00:00:33.200"
+    },
+    {
+      "id": 5,
+      "transcript": "the dB here. So, dBE, if we calculate this will be equal to 0 and this will have the",
+      "start_time": "00:00:33.200",
+      "end_time": "00:00:40.000"
+    },
+    {
+      "id": 6,
+      "transcript": "general formula C and H 2 and plus 2. So, when dB equal to 0, please remember that it cannot",
+      "start_time": "00:00:40.000",
+      "end_time": "00:00:49.519"
+    },
+    {
+      "id": 7,
+      "transcript": "be aldehyde and ketone because we are ruling out the double bond category here. So, now, this",
+      "start_time": "00:00:49.519",
+      "end_time": "00:00:55.359"
+    },
+    {
+      "id": 8,
+      "transcript": "could be if one oxygen is it, it could be only an alcohol or a ether. So, now, I have just written",
+      "start_time": "00:00:55.359",
+      "end_time": "00:01:01.840"
+    },
+    {
+      "id": 9,
+      "transcript": "some of the functional groups like you know the isomers here. So, one is with alcohol,",
+      "start_time": "00:01:01.840",
+      "end_time": "00:01:07.280"
+    },
+    {
+      "id": 10,
+      "transcript": "other one with ether. Now, I have written this one alcohol here, which is in the first position",
+      "start_time": "00:01:07.280",
+      "end_time": "00:01:12.719"
+    },
+    {
+      "id": 11,
+      "transcript": "OH group is there, here in the second position OH group is there, here it is taking a tertiary position",
+      "start_time": "00:01:12.719",
+      "end_time": "00:01:18.480"
+    },
+    {
+      "id": 12,
+      "transcript": "the alcohol group. Now, when I see here, we cannot say that these compounds are metamers because",
+      "start_time": "00:01:18.480",
+      "end_time": "00:01:24.960"
+    },
+    {
+      "id": 13,
+      "transcript": "as I told the alcohol groups we it has to differ with the alcohol groups on both sides of the",
+      "start_time": "00:01:25.439",
+      "end_time": "00:01:31.439"
+    },
+    {
+      "id": 14,
+      "transcript": "polyvalent group. So, now here on one side there is alcohol group and other side only hydrogen.",
+      "start_time": "00:01:31.439",
+      "end_time": "00:01:38.000"
+    },
+    {
+      "id": 15,
+      "transcript": "So, this is not an alcohol group. Similarly, here one side all these are alcohol groups and hydrogen",
+      "start_time": "00:01:38.000",
+      "end_time": "00:01:44.239"
+    },
+    {
+      "id": 16,
+      "transcript": "similarly here also. So, these will not come under metamers. Now, only the thing is with ethers.",
+      "start_time": "00:01:44.239",
+      "end_time": "00:01:50.879"
+    },
+    {
+      "id": 17,
+      "transcript": "So, now, we see here this ethers, see here this side there are two carbons and this side there are",
+      "start_time": "00:01:50.959",
+      "end_time": "00:01:56.879"
+    },
+    {
+      "id": 18,
+      "transcript": "two carbons. Similarly, I have written another structure where there are the three carbons here",
+      "start_time": "00:01:56.879",
+      "end_time": "00:02:03.359"
+    },
+    {
+      "id": 19,
+      "transcript": "and one carbon here. So, when we consider 4 and 5, they are called metamers.",
+      "start_time": "00:02:03.359",
+      "end_time": "00:02:10.479"
+    },
+    {
+      "id": 20,
+      "transcript": "Okay. Similarly, if I take 5 and 6, they are not metamers because here also 3 carbons,",
+      "start_time": "00:02:10.560",
+      "end_time": "00:02:22.959"
+    },
+    {
+      "id": 21,
+      "transcript": "here also 3 carbons. So, here this would be chain isomers. Chain isomers.",
+      "start_time": "00:02:22.959",
+      "end_time": "00:02:30.479"
+    },
+    {
+      "id": 22,
+      "transcript": "Consider, now 4 and 6, here there are two, here there are two, here there are three,",
+      "start_time": "00:02:32.719",
+      "end_time": "00:02:39.039"
+    },
+    {
+      "id": 23,
+      "transcript": "here there is one. So, now even 4 and 6 are metamers.",
+      "start_time": "00:02:39.120",
+      "end_time": "00:02:42.799"
+    },
+    {
+      "id": 24,
+      "transcript": "Now, coming to another one with alcohols, here the OH position is in the first carbon,",
+      "start_time": "00:02:47.439",
+      "end_time": "00:02:53.039"
+    },
+    {
+      "id": 25,
+      "transcript": "here in the second carbon. So, if we consider these two, so one and two will show position isomers.",
+      "start_time": "00:02:53.039",
+      "end_time": "00:02:59.840"
+    },
+    {
+      "id": 26,
+      "transcript": "So, now coming to 2 and 3, okay. So, here also in the second position OH which is",
+      "start_time": "00:03:00.800",
+      "end_time": "00:03:09.840"
+    },
+    {
+      "id": 27,
+      "transcript": "there, here also second position, but the chain length is differing. So, these two will come",
+      "start_time": "00:03:09.840",
+      "end_time": "00:03:15.680"
+    },
+    {
+      "id": 28,
+      "transcript": "under 2 and 3 will come under chain isomers. So, similarly, if I say 1 and 4, then",
+      "start_time": "00:03:15.680",
+      "end_time": "00:03:29.199"
+    },
+    {
+      "id": 29,
+      "transcript": "they differ in their functional groups. So, 1 and 4 are functional isomers.",
+      "start_time": "00:03:29.520",
+      "end_time": "00:03:35.280"
+    },
+    {
+      "id": 30,
+      "transcript": "Okay. So, now when it comes to position here, now I want to explain one more thing here,",
+      "start_time": "00:03:39.840",
+      "end_time": "00:03:45.040"
+    },
+    {
+      "id": 31,
+      "transcript": "when we consider 4 and 5, there is difference in the position of the functional group.",
+      "start_time": "00:03:45.040",
+      "end_time": "00:03:50.880"
+    },
+    {
+      "id": 32,
+      "transcript": "Okay. So, when it comes to both position and metamers, metamers will take the priority,",
+      "start_time": "00:03:50.880",
+      "end_time": "00:03:57.040"
+    },
+    {
+      "id": 33,
+      "transcript": "compared to the position isomers. So, the next isomers is stortomers isom. So, what is",
+      "start_time": "00:03:57.120",
+      "end_time": "00:04:03.039"
+    },
+    {
+      "id": 34,
+      "transcript": "stortomers isom? It is defined as when two different structures having the same molecular formula",
+      "start_time": "00:04:03.039",
+      "end_time": "00:04:09.359"
+    },
+    {
+      "id": 35,
+      "transcript": "will undergo a rearrangement due to hydrogen. So, that is also called the 1, 3 hydrogen shift.",
+      "start_time": "00:04:10.239",
+      "end_time": "00:04:16.959"
+    },
+    {
+      "id": 36,
+      "transcript": "So, let us explain this with some examples. Now, here I have taken a ketone, okay. So, this can",
+      "start_time": "00:04:16.959",
+      "end_time": "00:04:24.319"
+    },
+    {
+      "id": 37,
+      "transcript": "undergo a rearrangement. So, let me number this as 1, 2 and 3. As I said here, it",
+      "start_time": "00:04:24.399",
+      "end_time": "00:04:30.639"
+    },
+    {
+      "id": 38,
+      "transcript": "will undergo 1, 3, hydrogen shift. So, from the first position, it will go to the third position.",
+      "start_time": "00:04:30.639",
+      "end_time": "00:04:36.800"
+    },
+    {
+      "id": 39,
+      "transcript": "As a result, this double bond will shift here. So, we can write this as CH2, double bond,",
+      "start_time": "00:04:36.800",
+      "end_time": "00:04:43.680"
+    },
+    {
+      "id": 40,
+      "transcript": "CH3. Now, this is a ketone and this is having a double bond and OH. So, this is called",
+      "start_time": "00:04:43.680",
+      "end_time": "00:04:53.920"
+    },
+    {
+      "id": 41,
+      "transcript": "E0. So, this is the ketone form and this is the E0 form, okay. So, such isomers are called tautomers,",
+      "start_time": "00:04:53.920",
+      "end_time": "00:05:02.160"
+    },
+    {
+      "id": 42,
+      "transcript": "okay. So, now here, if I take another example here, let us see this. Here, there is a nitrogrope here.",
+      "start_time": "00:05:02.160",
+      "end_time": "00:05:08.879"
+    },
+    {
+      "id": 43,
+      "transcript": "Now, let us see how it undergoes a rearrangement. Let me number this as 1, 2 and 3. Again,",
+      "start_time": "00:05:08.879",
+      "end_time": "00:05:14.720"
+    },
+    {
+      "id": 44,
+      "transcript": "there will be a 1, 3 hydrogen shift, okay. Now, here this hydrogen in the third position. So,",
+      "start_time": "00:05:14.720",
+      "end_time": "00:05:20.000"
+    },
+    {
+      "id": 45,
+      "transcript": "this one will go to the first position as the result, the double bond will shift here.",
+      "start_time": "00:05:20.079",
+      "end_time": "00:05:24.720"
+    },
+    {
+      "id": 46,
+      "transcript": "So, the compound would be CH3, CH double bond and OH and OH minus, okay. So, now, if you see,",
+      "start_time": "00:05:24.720",
+      "end_time": "00:05:36.959"
+    },
+    {
+      "id": 47,
+      "transcript": "this is a nitrogrope, whereas this is the hydroxyl nitrogrope. Now, these two are also again called",
+      "start_time": "00:05:36.959",
+      "end_time": "00:05:43.920"
+    },
+    {
+      "id": 48,
+      "transcript": "tautomeric structures. Now, here, let us take an amine here. So, if I, if there is an NH2 group,",
+      "start_time": "00:05:43.920",
+      "end_time": "00:05:50.560"
+    },
+    {
+      "id": 49,
+      "transcript": "it is called an amine group. Now, again, if I consider this as 1, 2 and 3, okay. There will be",
+      "start_time": "00:05:50.560",
+      "end_time": "00:05:56.800"
+    },
+    {
+      "id": 50,
+      "transcript": "hydrogen shift. Now, I can take this hydrogen and shift it to the third position. So, this can be",
+      "start_time": "00:05:56.800",
+      "end_time": "00:06:03.360"
+    },
+    {
+      "id": 51,
+      "transcript": "CH3, single bond, CH double bond, NH. So, this is a amine group and this is called",
+      "start_time": "00:06:03.360",
+      "end_time": "00:06:12.240"
+    },
+    {
+      "id": 52,
+      "transcript": "let me write it down. This is an amine group and this is called an amine. When there is a double bond",
+      "start_time": "00:06:12.240",
+      "end_time": "00:06:19.280"
+    },
+    {
+      "id": 53,
+      "transcript": "attached to NH, it is called amine group. Now, let us see some more examples. Here, I have taken some",
+      "start_time": "00:06:19.280",
+      "end_time": "00:06:25.680"
+    },
+    {
+      "id": 54,
+      "transcript": "aromatic compounds. Here, there is an aldehyde and here, I have taken a ketone. Now, here,",
+      "start_time": "00:06:25.680",
+      "end_time": "00:06:31.120"
+    },
+    {
+      "id": 55,
+      "transcript": "it is, there is no tautomerism possible, so, tautomerism possible, because here, this hydrogen,",
+      "start_time": "00:06:31.680",
+      "end_time": "00:06:38.079"
+    },
+    {
+      "id": 56,
+      "transcript": "this hydrogen cannot shift. Whereas, if I consider this carbon here, there is no hydrogen there.",
+      "start_time": "00:06:38.079",
+      "end_time": "00:06:43.919"
+    },
+    {
+      "id": 57,
+      "transcript": "So, there is no hydrogen here and in this side only hydrogen is there, it does not attach to any",
+      "start_time": "00:06:43.919",
+      "end_time": "00:06:49.039"
+    },
+    {
+      "id": 58,
+      "transcript": "carbon. So, this compound will not undergo tautomerism. Whereas, the same thing, I have substituted",
+      "start_time": "00:06:49.039",
+      "end_time": "00:06:55.599"
+    },
+    {
+      "id": 59,
+      "transcript": "hydrogen with a methyl group here. As we see in this carbon, there is no hydrogen, but whereas,",
+      "start_time": "00:06:55.599",
+      "end_time": "00:07:01.039"
+    },
+    {
+      "id": 60,
+      "transcript": "in this carbon, there is hydrogen. So, if I number this as 1, 2 and 3, this hydrogen can",
+      "start_time": "00:07:01.039",
+      "end_time": "00:07:06.879"
+    },
+    {
+      "id": 61,
+      "transcript": "undergo a shift. So, this could be written like this. So, C double bond, C H to again here,",
+      "start_time": "00:07:06.959",
+      "end_time": "00:07:21.360"
+    },
+    {
+      "id": 62,
+      "transcript": "we can see ketofone and anineol form. So, these are some examples of tautomerism.",
+      "start_time": "00:07:21.360",
+      "end_time": "00:07:27.439"
+    }
+  ]
+}

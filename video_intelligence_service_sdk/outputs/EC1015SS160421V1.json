@@ -1,0 +1,436 @@
+{
+  "audio_segments": [
+    {
+      "id": 1,
+      "transcript": "So, functional isomersum. So, what are functional isomersum compounds having say molecular",
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:12.240"
+    },
+    {
+      "id": 2,
+      "transcript": "formula, but they differ in their functional group. Let us see few examples. The first one",
+      "start_time": "00:00:12.240",
+      "end_time": "00:00:19.039"
+    },
+    {
+      "id": 3,
+      "transcript": "see the molecular formula C2 H6O. This can be either an alcohol, let us see H3, CH2O H or",
+      "start_time": "00:00:19.039",
+      "end_time": "00:00:29.920"
+    },
+    {
+      "id": 4,
+      "transcript": "it can be an ether. So, this is an alcohol because it has a OH group, this is R O R. So, which this",
+      "start_time": "00:00:30.000",
+      "end_time": "00:00:39.200"
+    },
+    {
+      "id": 5,
+      "transcript": "is an ether, coming, but look at this, they have the same molecular formula coming to the next",
+      "start_time": "00:00:39.200",
+      "end_time": "00:00:44.719"
+    },
+    {
+      "id": 6,
+      "transcript": "example C3 H6O. So, this can be either an aldehyde. So, it can be either CH3, CH2, CHO. So,",
+      "start_time": "00:00:44.719",
+      "end_time": "00:00:55.280"
+    },
+    {
+      "id": 7,
+      "transcript": "CHO group is the aldehyde or it could be also a ketone that is CH3, CW, CH3. And they have the",
+      "start_time": "00:00:55.359",
+      "end_time": "00:01:05.599"
+    },
+    {
+      "id": 8,
+      "transcript": "same molecular formula coming to the next one, C3 H6O2. So, this could be an acid that is CH3, CH2,",
+      "start_time": "00:01:05.599",
+      "end_time": "00:01:16.000"
+    },
+    {
+      "id": 9,
+      "transcript": "CW, H, or it could be an ester which is CH3, CW, O, CH3. So, this is the acid group, this is the",
+      "start_time": "00:01:16.079",
+      "end_time": "00:01:27.280"
+    },
+    {
+      "id": 10,
+      "transcript": "ester group, R, CW, R is the ester. Coming to the next example, C3 H4. So, this compound can",
+      "start_time": "00:01:27.280",
+      "end_time": "00:01:35.359"
+    },
+    {
+      "id": 11,
+      "transcript": "either have a double bond in their structure or it could also have a triple bond. So, now,",
+      "start_time": "00:01:35.359",
+      "end_time": "00:01:41.200"
+    },
+    {
+      "id": 12,
+      "transcript": "let us see what are the two structures. It could be CH3, C triple bond, CH. So, this is just an",
+      "start_time": "00:01:41.200",
+      "end_time": "00:01:50.000"
+    },
+    {
+      "id": 13,
+      "transcript": "aldehyde because it has only triple bond or it could also be CH2 double bond. So, it can either",
+      "start_time": "00:01:50.000",
+      "end_time": "00:01:58.159"
+    },
+    {
+      "id": 14,
+      "transcript": "process only triple bond or it could process two double bonds. So, that is this is an aldehyde,",
+      "start_time": "00:01:58.159",
+      "end_time": "00:02:03.200"
+    },
+    {
+      "id": 15,
+      "transcript": "this is an aldehyde. Next example, C3 H6N. So, this could be a cyanide that is CH3, CH2,",
+      "start_time": "00:02:03.200",
+      "end_time": "00:02:13.199"
+    },
+    {
+      "id": 16,
+      "transcript": "CN or the point of attachment could be NC which is called the iso cyanide, CH3, CH2,",
+      "start_time": "00:02:13.199",
+      "end_time": "00:02:22.080"
+    },
+    {
+      "id": 17,
+      "transcript": "N triple bond C. So, this is called an iso cyanide, this is called a cyanide group. Now,",
+      "start_time": "00:02:22.080",
+      "end_time": "00:02:28.480"
+    },
+    {
+      "id": 18,
+      "transcript": "coming to the next example, C2 H5ON. So, this could be either CH3, CHW bond, NOH, it is the",
+      "start_time": "00:02:28.479",
+      "end_time": "00:02:40.959"
+    },
+    {
+      "id": 19,
+      "transcript": "auxine or it could be also CH3, CONH2. So, CO and H2 group is the amide group. So, we have seen",
+      "start_time": "00:02:40.959",
+      "end_time": "00:02:52.399"
+    },
+    {
+      "id": 20,
+      "transcript": "all these examples with the same molecular formula, but see how the functional group differs.",
+      "start_time": "00:02:52.399",
+      "end_time": "00:02:57.439"
+    },
+    {
+      "id": 21,
+      "transcript": "Another concept of functional isomerism is double bond equivalent which is denoted as dB E.",
+      "start_time": "00:02:58.400",
+      "end_time": "00:03:05.840"
+    },
+    {
+      "id": 22,
+      "transcript": "So, what is this dB E? This will give us an information about whether there is a double bond or",
+      "start_time": "00:03:07.199",
+      "end_time": "00:03:13.680"
+    },
+    {
+      "id": 23,
+      "transcript": "there is a ring in the structure. Now, this is a J E question, how many possible isomers are there",
+      "start_time": "00:03:13.680",
+      "end_time": "00:03:20.639"
+    },
+    {
+      "id": 24,
+      "transcript": "in this of compound with molecular formula C3 H6O? See, if there is one O there could it could be an",
+      "start_time": "00:03:20.720",
+      "end_time": "00:03:27.520"
+    },
+    {
+      "id": 25,
+      "transcript": "aldehyde, it could be a ketone, it could be an alcohol and an ether. So, now, this with dB E will tell",
+      "start_time": "00:03:27.520",
+      "end_time": "00:03:34.960"
+    },
+    {
+      "id": 26,
+      "transcript": "us what kind of alcohol or ether it is. So, now, let us see the formula for dB, this is number of",
+      "start_time": "00:03:34.960",
+      "end_time": "00:03:41.200"
+    },
+    {
+      "id": 27,
+      "transcript": "carbon atoms minus number of hydrogen divided by 2 plus nitrogen divided by 2 plus 1. If there is no",
+      "start_time": "00:03:41.200",
+      "end_time": "00:03:48.960"
+    },
+    {
+      "id": 28,
+      "transcript": "nitrogen or any other like you know sulfur something, we can just omit this part. So, now, here",
+      "start_time": "00:03:48.960",
+      "end_time": "00:03:55.040"
+    },
+    {
+      "id": 29,
+      "transcript": "in this case, if we calculate for C3 H6O, the number of carbon atoms is 3. So, 3 minus 6 hydrogen.",
+      "start_time": "00:03:55.040",
+      "end_time": "00:04:03.760"
+    },
+    {
+      "id": 30,
+      "transcript": "So, 6 by 2 as I told there is no nitrogen. So, we will just leave that and plus 1. So, this is",
+      "start_time": "00:04:03.760",
+      "end_time": "00:04:10.000"
+    },
+    {
+      "id": 31,
+      "transcript": "equivalent to 1 dB is 1. So, now, if dB is equal to 1, that means, there could be a double bond in",
+      "start_time": "00:04:10.000",
+      "end_time": "00:04:18.160"
+    },
+    {
+      "id": 32,
+      "transcript": "the compound or that could be a ring in the compound. So, this will give us an idea to write",
+      "start_time": "00:04:18.240",
+      "end_time": "00:04:24.000"
+    },
+    {
+      "id": 33,
+      "transcript": "the number of structural isomers possible here. So, now, what so, if there is a double bond as I told,",
+      "start_time": "00:04:24.000",
+      "end_time": "00:04:30.000"
+    },
+    {
+      "id": 34,
+      "transcript": "it could be an aldehyde, C HO. So, you can see the molecular formula is C3 H6O, A and it could be a",
+      "start_time": "00:04:30.000",
+      "end_time": "00:04:37.280"
+    },
+    {
+      "id": 35,
+      "transcript": "ketone here. Now, the alcohol we cannot write the normal alcohol, because the molecular weight will",
+      "start_time": "00:04:37.280",
+      "end_time": "00:04:43.680"
+    },
+    {
+      "id": 36,
+      "transcript": "not match with this. So, now, that means, there is a double bond here. So, I could write an",
+      "start_time": "00:04:43.759",
+      "end_time": "00:04:49.280"
+    },
+    {
+      "id": 37,
+      "transcript": "alcohol here, where a double bond here in this position and OH attached to the C H2. So, this is",
+      "start_time": "00:04:49.280",
+      "end_time": "00:04:55.280"
+    },
+    {
+      "id": 38,
+      "transcript": "one of the isomer. Now, I am just changing the double bond position here and OH, this is another isomer",
+      "start_time": "00:04:55.280",
+      "end_time": "00:05:02.399"
+    },
+    {
+      "id": 39,
+      "transcript": "here, the OH could come to the second position and a double bond here, this is another isomer.",
+      "start_time": "00:05:02.399",
+      "end_time": "00:05:08.000"
+    },
+    {
+      "id": 40,
+      "transcript": "Also, all these compounds that is 3, 4, 5, all these are alcohols. Now, the next one this could",
+      "start_time": "00:05:08.079",
+      "end_time": "00:05:14.079"
+    },
+    {
+      "id": 41,
+      "transcript": "be an ether. So, R, O, R and as I told, it has a double bond. So, only if I put a double bond,",
+      "start_time": "00:05:14.079",
+      "end_time": "00:05:20.800"
+    },
+    {
+      "id": 42,
+      "transcript": "the molecular formula will match with the C3 H6O. So, this is an ether. Now, as I told, it could be a",
+      "start_time": "00:05:20.800",
+      "end_time": "00:05:27.839"
+    },
+    {
+      "id": 43,
+      "transcript": "double bond or there could be also a ring in the compound. So, now, let us start writing.",
+      "start_time": "00:05:27.839",
+      "end_time": "00:05:33.360"
+    },
+    {
+      "id": 44,
+      "transcript": "So, this is the simplest ring, when OH group here. So, this will also match with C3, H6O",
+      "start_time": "00:05:33.439",
+      "end_time": "00:05:40.960"
+    },
+    {
+      "id": 45,
+      "transcript": "or it could be an ether, a cyclic ether. So, or it could be another cyclic ether like this.",
+      "start_time": "00:05:40.960",
+      "end_time": "00:05:48.160"
+    },
+    {
+      "id": 46,
+      "transcript": "So, all these structures are possible, if you take one function to do so. So, that is an aldehyde",
+      "start_time": "00:05:48.160",
+      "end_time": "00:05:54.960"
+    },
+    {
+      "id": 47,
+      "transcript": "is possible, ketone is possible and as alcohol with a double bond and an ether like a normal",
+      "start_time": "00:05:55.039",
+      "end_time": "00:06:02.799"
+    },
+    {
+      "id": 48,
+      "transcript": "ether or with double bond is possible. So, totally how many structures are there? 9. So, the total",
+      "start_time": "00:06:02.799",
+      "end_time": "00:06:09.279"
+    },
+    {
+      "id": 49,
+      "transcript": "possible isomer is 9. So, now, let us see another example with a double bond equivalent for the",
+      "start_time": "00:06:09.279",
+      "end_time": "00:06:17.439"
+    },
+    {
+      "id": 50,
+      "transcript": "compound C4 H6. Let us proceed by calculating. So, DBE will be equal to number of carbon is 4 minus",
+      "start_time": "00:06:17.439",
+      "end_time": "00:06:26.879"
+    },
+    {
+      "id": 51,
+      "transcript": "number of hydrogen is 6 by 2 plus there is no nitrogen, then plus 1. So, DBE will be equal to 2. So,",
+      "start_time": "00:06:26.879",
+      "end_time": "00:06:35.040"
+    },
+    {
+      "id": 52,
+      "transcript": "what is this 2 indicate? So, when DBE is equal to 2, that means, there are two double bonds in the",
+      "start_time": "00:06:35.040",
+      "end_time": "00:06:42.000"
+    },
+    {
+      "id": 53,
+      "transcript": "compound or 1 triple bond or there can be two rings or there could be one double bond and one ring.",
+      "start_time": "00:06:42.000",
+      "end_time": "00:06:49.279"
+    },
+    {
+      "id": 54,
+      "transcript": "So, when we apply all this, like we will see, we will get all these structures.",
+      "start_time": "00:06:49.279",
+      "end_time": "00:06:53.519"
+    },
+    {
+      "id": 55,
+      "transcript": "First, let us see with respect to two double bond. So, the compound having two double bonds is",
+      "start_time": "00:06:53.519",
+      "end_time": "00:06:59.040"
+    },
+    {
+      "id": 56,
+      "transcript": "one and two this two. There are two double bonds and we can see it is C4 H6 and C4 H6.",
+      "start_time": "00:06:59.040",
+      "end_time": "00:07:06.879"
+    },
+    {
+      "id": 57,
+      "transcript": "Only the position of the double bond is varying here. Coming to the next one, one triple bond.",
+      "start_time": "00:07:06.959",
+      "end_time": "00:07:12.800"
+    },
+    {
+      "id": 58,
+      "transcript": "So, there is one triple bond here in the first position or there could be a triple bond in the",
+      "start_time": "00:07:12.800",
+      "end_time": "00:07:17.600"
+    },
+    {
+      "id": 59,
+      "transcript": "second position. So, these two are with respect to triple bond. Now, coming to two rings.",
+      "start_time": "00:07:17.600",
+      "end_time": "00:07:23.199"
+    },
+    {
+      "id": 60,
+      "transcript": "So, there is only possibility is writing the structure like this, where this is considered as",
+      "start_time": "00:07:23.199",
+      "end_time": "00:07:28.800"
+    },
+    {
+      "id": 61,
+      "transcript": "one ring and this is considered as one ring. Now, the next one is one double bond and one ring.",
+      "start_time": "00:07:28.800",
+      "end_time": "00:07:35.519"
+    },
+    {
+      "id": 62,
+      "transcript": "So, it could be like this, that is cyclobutar dying with one double bond or it could be",
+      "start_time": "00:07:35.599",
+      "end_time": "00:07:42.000"
+    },
+    {
+      "id": 63,
+      "transcript": "a three membered ring with one alkyl group here. So, again there could be again three membered ring.",
+      "start_time": "00:07:42.000",
+      "end_time": "00:07:50.159"
+    },
+    {
+      "id": 64,
+      "transcript": "Here, the methyl group is not attached to the double bond, here the methyl group is attached to",
+      "start_time": "00:07:50.159",
+      "end_time": "00:07:54.719"
+    },
+    {
+      "id": 65,
+      "transcript": "the double bond. So, these are again one more possibility and the last one is the double bond is attached",
+      "start_time": "00:07:54.719",
+      "end_time": "00:08:00.319"
+    },
+    {
+      "id": 66,
+      "transcript": "to the alkyl group here. So, again so, to be count the number of high somers,",
+      "start_time": "00:08:00.399",
+      "end_time": "00:08:04.800"
+    },
+    {
+      "id": 67,
+      "transcript": "there are 1, 2, 3, 4, 5, 6 are 9 isomers. So, totally there are 9 isomers possible for the compound",
+      "start_time": "00:08:04.800",
+      "end_time": "00:08:13.040"
+    },
+    {
+      "id": 68,
+      "transcript": "having molecular formula C4 H6. So, now let us see the next one in case the double bond equivalent",
+      "start_time": "00:08:13.040",
+      "end_time": "00:08:20.319"
+    },
+    {
+      "id": 69,
+      "transcript": "is equal to 3. So, what are the possibilities? So, in case it is 3, there could be 3 double bond",
+      "start_time": "00:08:20.319",
+      "end_time": "00:08:27.600"
+    },
+    {
+      "id": 70,
+      "transcript": "in the compound or there could be a double bond plus 1 triple bond, 1 double bond plus 2 rings",
+      "start_time": "00:08:27.680",
+      "end_time": "00:08:36.399"
+    },
+    {
+      "id": 71,
+      "transcript": "and 2 double bond plus 1 ring or the final could be there could be 3 rings which are attached to",
+      "start_time": "00:08:36.399",
+      "end_time": "00:08:43.040"
+    },
+    {
+      "id": 72,
+      "transcript": "together.",
+      "start_time": "00:08:43.039",
+      "end_time": "00:08:51.839"
+    }
+  ]
+}
