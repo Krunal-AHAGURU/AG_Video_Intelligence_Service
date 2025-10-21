@@ -23,15 +23,6 @@ video_intelligence_service/
 └── Video_Intelligence_Service.ipynb  # Interactive notebook
 ```
 
-## Features
-
-- **Object Detection**: Identify and track objects in video content
-- **Scene Recognition**: Automatically detect scene changes and transitions
-- **Metadata Extraction**: Generate comprehensive metadata from video files
-- **AI-Powered Analysis**: Leverage machine learning for intelligent video processing
-- **Web Interface**: User-friendly web interface for video analysis
-- **RESTful API**: Programmatic access to video intelligence capabilities
-
 ## Quick Start
 
 ### Prerequisites
@@ -123,8 +114,8 @@ Edit `config.py` to customize analysis parameters, model settings, and service b
 
 ## License
 
-All Rights Recvied  | Ahaguru Analtics team 
+All Rights Recvied  : Ahaguru Analytics team :)
 
 ## Support
 
-For issues and questions, please refer to the documentation or create an issue in the project repository.
+For issues and questions, please refer to the documentation or create an issue in the project repository or connect krunalrana.ahaguru@gmail.com.
