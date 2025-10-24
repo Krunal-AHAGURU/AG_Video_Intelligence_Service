@@ -1,345 +1,120 @@
 {
-  "generated_timestamp": "20251021_145642",
+  "generated_timestamp": "20251024_140407",
   "summary_data": {
     "overall_summary": {
-      "summary_title": "Understanding Functional Isomerism and Double Bond Equivalent (DBE)",
-      "summary_text": "This lecture explores the concept of functional isomerism, a phenomenon where different compounds share the same molecular formula but possess distinct functional groups. Several illustrative examples are provided, demonstrating how a single molecular formula can represent alcohols, ethers, aldehydes, ketones, acids, esters, cyanides, isocyanides, auxines, and amides. The lecture emphasizes the importance of identifying the functional group to distinguish between isomers.\n\nThe session introduces the Double Bond Equivalent (DBE) as a valuable tool for predicting the presence of double bonds, triple bonds, or rings within a molecule. The formula for calculating DBE is explained in detail, along with how the resulting value helps determine the possible structural arrangements of atoms in a compound. The DBE calculation helps to quickly identify possible structures that adhere to the molecular formula.\n\nSeveral examples are worked through step-by-step, demonstrating how to calculate DBE and then use this information to deduce the possible isomers of a given molecular formula. These examples include compounds with DBE values of 1, 2, and 3, highlighting how increasing DBE values correspond to greater structural complexity and a wider range of possible isomers. Specific attention is paid to identifying isomers with double bonds, triple bonds, and cyclic structures.\n\nBy the end of the session, students will grasp the definition of functional isomerism, be able to calculate and interpret DBE values, and apply this knowledge to predict the possible structural isomers of organic compounds."
+      "summary_title": "Unlocking Functional Isomerism: A Comprehensive Guide",
+      "summary_text": "This lecture provides a detailed exploration of functional isomerism, a key concept in organic chemistry. We begin by defining functional isomers as compounds sharing the same molecular formula but differing in their functional groups. Through a series of examples, we illustrate how various functional groups, such as alcohols, ethers, aldehydes, ketones, acids, esters, cyanides, and isocyanides, can lead to different isomers with the same molecular formula. The session progresses to introduce the concept of Double Bond Equivalent (DBE) which helps in identifying the number of pi bonds or rings present in a molecule.\n\nThe lecture further explains how to calculate DBE using a straightforward formula, allowing us to predict the presence of double bonds, triple bonds, or rings within a compound's structure. We see how DBE calculations can significantly narrow down the possibilities and aid in identifying all possible isomers for a given molecular formula. Several examples are used to clarify the DBE formula and its application in determining the number of possible isomers for compounds with varying DBE values.\n\nDetailed examples are provided, illustrating how to draw different structural isomers based on the calculated DBE value. The session goes through scenarios where DBE equals 1, 2, and potentially 3, showcasing the variety of structural arrangements possible. These examples cover compounds with double bonds, triple bonds, rings, and combinations thereof, emphasizing how to systematically approach isomer identification. \n\nBy the end of this lecture, students will have a solid understanding of functional isomerism, the ability to calculate DBE, and the skills necessary to identify and draw various structural isomers for organic compounds. This knowledge is crucial for success in organic chemistry and related fields like JEE and NEET."
     },
-    "starting_build_up": "The session begins by introducing the concept of functional isomers, which are molecules with the same molecular formula but different functional groups. It motivates the importance of understanding isomerism in organic chemistry and indicates that students will learn how to identify different types of functional isomers and how to determine the structural possibilities using the Double Bond Equivalent (DBE) formula.",
-    "timestamp_wise_summary": [
-      {
-        "start_time": "00:00:00.000",
-        "end_time": "00:00:12.240",
-        "summary_title": "Introduction to Functional Isomerism",
-        "summary": "Functional isomerism is introduced as a concept where compounds have the same molecular formula but differ in their functional groups."
-      },
-      {
-        "start_time": "00:00:12.240",
-        "end_time": "00:00:30.000",
-        "summary_title": "Example 1: Alcohol vs. Ether (C2H6O)",
-        "summary": "The molecular formula C2H6O is presented as an example, which can represent either an alcohol (CH3CH2OH) or an ether. The distinction lies in the presence of the OH group (alcohol) versus the R-O-R structure (ether)."
-      },
-      {
-        "start_time": "00:00:30.000",
-        "end_time": "00:00:44.719",
-        "summary_title": "Identifying Alcohol vs. Ether",
-        "summary": "The segment further explains and differentiates alcohol and ether based on their functional groups (OH group for alcohol and ROR group for ether)."
-      },
-      {
-        "start_time": "00:00:44.719",
-        "end_time": "00:01:05.599",
-        "summary_title": "Example 2: Aldehyde vs. Ketone (C3H6O)",
-        "summary": "The molecular formula C3H6O is given, illustrating that it can be either an aldehyde (CH3CH2CHO) or a ketone (CH3COCH3), depending on the presence of a CHO group (aldehyde) or a C=O group within the carbon chain (ketone)."
-      },
-      {
-        "start_time": "00:01:05.599",
-        "end_time": "00:01:27.280",
-        "summary_title": "Example 3: Acid vs. Ester (C3H6O2)",
-        "summary": "The molecular formula C3H6O2 is used to show that it can be either a carboxylic acid (CH3CH2COOH) or an ester (CH3COOCH3), differing based on the presence of the COOH group (acid) or the RCOOR group (ester)."
-      },
-      {
-        "start_time": "00:01:27.280",
-        "end_time": "00:01:41.200",
-        "summary_title": "Example 4: Compounds with Double/Triple Bonds (C3H4)",
-        "summary": "The molecular formula C3H4 illustrates that it can represent compounds containing either a double bond or a triple bond, showcasing the flexibility of the same formula to create different structures."
-      },
-      {
-        "start_time": "00:01:41.200",
-        "end_time": "00:02:03.200",
-        "summary_title": "Illustrating Double/Triple Bond Structures",
-        "summary": "Structures such as CH3C\u2261CH (triple bond) and CH2=C=CH2 (two double bonds) are shown to represent the C3H4 formula."
-      },
-      {
-        "start_time": "00:02:03.200",
-        "end_time": "00:02:28.480",
-        "summary_title": "Example 5: Cyanide vs. Isocyanide (C3H6N)",
-        "summary": "The molecular formula C3H6N is presented. It can represent a cyanide (CH3CH2CN) or an isocyanide (CH3CH2NC), highlighting the different connectivity of the nitrogen atom."
-      },
-      {
-        "start_time": "00:02:28.479",
-        "end_time": "00:02:57.439",
-        "summary_title": "Example 6: Auxine vs. Amide (C2H5ON)",
-        "summary": "The molecular formula C2H5ON is presented and shown to form auxine and amide."
-      },
-      {
-        "start_time": "00:02:58.400",
-        "end_time": "00:03:05.840",
-        "summary_title": "Introduction to Double Bond Equivalent (DBE)",
-        "summary": "The concept of Double Bond Equivalent (DBE), denoted as DBE, is introduced as a tool that provides information about the presence of double bonds or rings in a structure."
-      },
-      {
-        "start_time": "00:03:07.199",
-        "end_time": "00:03:20.639",
-        "summary_title": "Application of DBE: JEE Question Example",
-        "summary": "A JEE question is presented regarding the number of possible isomers for the compound with molecular formula C3H6O, emphasizing how DBE can help determine the types of isomers (aldehyde, ketone, alcohol, ether)."
-      },
-      {
-        "start_time": "00:03:20.720",
-        "end_time": "00:03:48.960",
-        "summary_title": "DBE Formula",
-        "summary": "The formula for calculating DBE is explained: DBE = (Number of carbon atoms) - (Number of hydrogen atoms / 2) + (Number of nitrogen atoms / 2) + 1. If there is no nitrogen or sulfur then those parts can be omitted."
-      },
-      {
-        "start_time": "00:03:48.960",
-        "end_time": "00:04:10.000",
-        "summary_title": "DBE Calculation for C3H6O",
-        "summary": "The DBE is calculated for C3H6O as an example: DBE = 3 - (6/2) + 1 = 1."
-      },
-      {
-        "start_time": "00:04:10.000",
-        "end_time": "00:04:24.000",
-        "summary_title": "Interpreting DBE = 1",
-        "summary": "A DBE of 1 indicates the presence of either one double bond or one ring in the compound."
-      },
-      {
-        "start_time": "00:04:24.000",
-        "end_time": "00:04:37.280",
-        "summary_title": "Isomers of C3H6O with DBE = 1: Aldehyde and Ketone",
-        "summary": "It is shown that with a DBE of 1, C3H6O can be an aldehyde (CH3CH2CHO) or a ketone (CH3COCH3)."
-      },
-      {
-        "start_time": "00:04:37.280",
-        "end_time": "00:05:08.000",
-        "summary_title": "Isomers of C3H6O with DBE = 1: Alcohols",
-        "summary": "Different alcohol isomers with a double bond are presented, ensuring the molecular formula matches C3H6O. Examples include alcohols with varying double bond positions and OH group attachments."
-      },
-      {
-        "start_time": "00:05:08.079",
-        "end_time": "00:05:27.839",
-        "summary_title": "Isomers of C3H6O with DBE = 1: Ethers",
-        "summary": "Ether isomers are shown, including ethers with a double bond, ensuring they also match the C3H6O formula."
-      },
-      {
-        "start_time": "00:05:27.839",
-        "end_time": "00:05:48.160",
-        "summary_title": "Isomers of C3H6O with DBE = 1: Cyclic Structures",
-        "summary": "Cyclic structures are introduced as possible isomers for C3H6O, including a cyclic alcohol and cyclic ethers."
-      },
-      {
-        "start_time": "00:05:48.160",
-        "end_time": "00:06:09.279",
-        "summary_title": "Summary of C3H6O Isomers",
-        "summary": "The possible isomers for C3H6O are summarized: aldehyde, ketone, alcohol with a double bond, and ether (normal or with a double bond).  The total number of isomers possible is concluded to be 9."
-      },
-      {
-        "start_time": "00:06:09.279",
-        "end_time": "00:06:35.040",
-        "summary_title": "DBE Calculation for C4H6",
-        "summary": "The DBE is calculated for C4H6: DBE = 4 - (6/2) + 1 = 2."
-      },
-      {
-        "start_time": "00:06:35.040",
-        "end_time": "00:06:49.279",
-        "summary_title": "Interpreting DBE = 2",
-        "summary": "A DBE of 2 indicates possibilities such as two double bonds, one triple bond, two rings, or one double bond and one ring."
-      },
-      {
-        "start_time": "00:06:49.279",
-        "end_time": "00:07:06.879",
-        "summary_title": "Isomers of C4H6 with DBE = 2: Two Double Bonds",
-        "summary": "Examples of C4H6 isomers with two double bonds are shown, with varying positions of the double bonds."
-      },
-      {
-        "start_time": "00:07:06.959",
-        "end_time": "00:07:17.600",
-        "summary_title": "Isomers of C4H6 with DBE = 2: One Triple Bond",
-        "summary": "Isomers of C4H6 with one triple bond are presented, showing different positions for the triple bond."
-      },
-      {
-        "start_time": "00:07:17.600",
-        "end_time": "00:07:28.800",
-        "summary_title": "Isomers of C4H6 with DBE = 2: Two Rings",
-        "summary": "A structure with two rings attached is shown as a possibility for C4H6 when DBE = 2."
-      },
-      {
-        "start_time": "00:07:28.800",
-        "end_time": "00:08:00.319",
-        "summary_title": "Isomers of C4H6 with DBE = 2: One Double Bond and One Ring",
-        "summary": "Examples are given where C4H6 has one double bond and one ring, including cyclobutadiene and a three-membered ring with an alkyl group."
-      },
-      {
-        "start_time": "00:08:00.399",
-        "end_time": "00:08:13.040",
-        "summary_title": "Summary of C4H6 Isomers",
-        "summary": "The total number of isomers for C4H6 is counted, resulting in 9 isomers."
-      },
-      {
-        "start_time": "00:08:13.040",
-        "end_time": "00:08:20.319",
-        "summary_title": "Introduction to DBE = 3",
-        "summary": "The session transitions to discussing possibilities when the DBE equals 3."
-      },
-      {
-        "start_time": "00:08:20.319",
-        "end_time": "00:08:43.040",
-        "summary_title": "Possibilities for DBE = 3",
-        "summary": "The lecture concludes by discussing possibilities for a compound with DBE = 3: three double bonds, one double bond and one triple bond, one double bond and two rings, two double bonds and one ring, or three rings attached together."
-      },
-      {
-        "start_time": "00:08:43.039",
-        "end_time": "00:08:51.839",
-        "summary_title": "End",
-        "summary": "End of segment."
-      }
-    ],
-    "end_summary": "The lecture effectively explained functional isomerism and provided a clear understanding of the Double Bond Equivalent (DBE) concept. Students should now be able to calculate DBE values and use them to determine the possible structural isomers of organic compounds. The session highlighted how different DBE values correspond to different combinations of double bonds, triple bonds, and rings, ultimately impacting the structural diversity of organic molecules.",
+    "starting_build_up": "The session begins by introducing the concept of functional isomerism. It motivates the topic by explaining its importance in understanding the diversity of organic compounds. The students will learn about different functional groups, how they can lead to isomerism, and the role of Double Bond Equivalent (DBE) in predicting the structural possibilities of a given molecular formula.",
+    "end_summary": "In conclusion, this lecture covered functional isomerism, emphasizing the importance of identifying different functional groups within a molecule. We also learned about the Double Bond Equivalent (DBE) and its utility in determining the number of rings or pi bonds in a compound, which then helps determine the possible number of isomers. The examples provided will enable students to solve problems involving isomer identification and structure prediction.",
     "chapters": [
       {
         "chapter_title": "Introduction to Functional Isomerism",
         "start_time": "00:00:00.000",
-        "end_time": "00:00:12.240",
-        "description": "Defining functional isomerism as compounds with the same molecular formula but different functional groups."
+        "end_time": "00:00:20.000",
+        "summary_text": "This chapter introduces the concept of functional isomerism, defining it as compounds with the same molecular formula but different functional groups. Examples like alcohols and ethers with the formula C<sub>2</sub>H<sub>6</sub>O are presented to illustrate this concept.",
+        "description": "Definition and examples of functional isomers."
       },
       {
-        "chapter_title": "Functional Isomer Examples",
-        "start_time": "00:00:12.240",
-        "end_time": "00:02:57.439",
-        "description": "Exploring different examples of functional isomers like alcohol vs ether, aldehyde vs ketone, acid vs ester, cyanide vs isocyanide, and auxine vs amide, demonstrating how different functional groups can arise from the same molecular formula."
+        "chapter_title": "Examples of Functional Isomers",
+        "start_time": "00:00:20.000",
+        "end_time": "00:02:58.000",
+        "summary_text": "This section continues with examples of functional isomers, including aldehydes and ketones (C<sub>3</sub>H<sub>6</sub>O), acids and esters (C<sub>3</sub>H<sub>6</sub>O<sub>2</sub>), and compounds with double or triple bonds (C<sub>3</sub>H<sub>4</sub>). Also covers cyanide and isocyanide (C<sub>3</sub>H<sub>6</sub>N) and auxine and amide (C<sub>2</sub>H<sub>5</sub>ON). These examples showcase the variety of functional groups that can result in isomerism.",
+        "description": "Further examples illustrating different functional groups and their corresponding isomers."
       },
       {
-        "chapter_title": "Introduction to Double Bond Equivalent (DBE)",
-        "start_time": "00:02:58.400",
-        "end_time": "00:03:20.639",
-        "description": "Introducing the concept and purpose of the Double Bond Equivalent (DBE) in determining the presence of double bonds or rings in a structure."
+        "chapter_title": "Double Bond Equivalent (DBE)",
+        "start_time": "00:02:58.000",
+        "end_time": "00:04:24.000",
+        "summary_text": "The concept of Double Bond Equivalent (DBE) is introduced. DBE helps determine the number of double bonds or rings in a structure. The formula for calculating DBE is explained: $$DBE = C - (H/2) + (N/2) + 1$$, where C, H, and N are the number of carbon, hydrogen, and nitrogen atoms, respectively. Calculation for C<sub>3</sub>H<sub>6</sub>O is shown with DBE = 1.",
+        "description": "Introduction to DBE and its calculation formula."
       },
       {
-        "chapter_title": "DBE Formula and Calculation",
-        "start_time": "00:03:20.720",
-        "end_time": "00:04:10.000",
-        "description": "Explaining the DBE formula and demonstrating its calculation with the example of C3H6O."
+        "chapter_title": "Isomer Identification Using DBE (C3H6O)",
+        "start_time": "00:04:24.000",
+        "end_time": "00:05:28.000",
+        "summary_text": "Using the calculated DBE value, possible isomers for C<sub>3</sub>H<sub>6</sub>O are identified. These include aldehyde, ketone, alcohol with a double bond, and an ether with a double bond. Each possible isomer is drawn and explained.",
+        "description": "Applying DBE to identify and draw isomers."
       },
       {
-        "chapter_title": "Isomers with DBE = 1 (C3H6O)",
-        "start_time": "00:04:10.000",
-        "end_time": "00:06:09.279",
-        "description": "Exploring the different isomers possible for C3H6O with a DBE of 1, including aldehydes, ketones, alcohols, and ethers."
+        "chapter_title": "Cyclic Isomers of C3H6O",
+        "start_time": "00:05:28.000",
+        "end_time": "00:06:09.000",
+        "summary_text": "Cyclic isomers for C<sub>3</sub>H<sub>6</sub>O are explored, including a ring with an alcohol group, a cyclic ether, and other cyclic structures. The total number of possible isomers for C<sub>3</sub>H<sub>6</sub>O is determined to be 9.",
+        "description": "Exploring cyclic isomers based on DBE."
       },
       {
-        "chapter_title": "Isomers with DBE = 2 (C4H6)",
-        "start_time": "00:06:09.279",
-        "end_time": "00:08:13.040",
-        "description": "Exploring the different isomers possible for C4H6 with a DBE of 2, including compounds with two double bonds, one triple bond, two rings, or one double bond and one ring."
+        "chapter_title": "DBE Example: C4H6",
+        "start_time": "00:06:09.000",
+        "end_time": "00:06:54.000",
+        "summary_text": "Another example calculates DBE for C<sub>4</sub>H<sub>6</sub>, resulting in a DBE of 2. This indicates the presence of two double bonds, one triple bond, two rings, or one double bond and one ring. All of which need to be considered when drawing possible isomers.",
+        "description": "Applying DBE to a new molecular formula."
       },
       {
-        "chapter_title": "Isomers with DBE = 3",
-        "start_time": "00:08:13.040",
+        "chapter_title": "Isomers of C4H6",
+        "start_time": "00:06:54.000",
+        "end_time": "00:08:13.000",
+        "summary_text": "The possible isomers of C<sub>4</sub>H<sub>6</sub> are identified based on the DBE value of 2. These include structures with two double bonds, one triple bond, two rings, and one double bond plus one ring. 9 isomers are possible for C<sub>4</sub>H<sub>6</sub>",
+        "description": "Identifying and drawing isomers for C4H6."
+      },
+      {
+        "chapter_title": "DBE equal to 3 possibilities",
+        "start_time": "00:08:13.000",
         "end_time": "00:08:43.040",
-        "description": "Briefly discussing the possibilities for compounds with a DBE of 3."
-      }
-    ],
-    "chapter_wise_summary": [
-      {
-        "chapter_title": "Introduction to Functional Isomerism",
-        "summary_text": "This chapter introduces the fundamental concept of functional isomerism, explaining that compounds can have the same molecular formula yet exhibit different chemical properties due to variations in their functional groups. This chapter lays the groundwork for understanding how structural differences can lead to distinct compounds, even with identical elemental compositions."
-      },
-      {
-        "chapter_title": "Functional Isomer Examples",
-        "summary_text": "This chapter provides several concrete examples of functional isomers, such as alcohols versus ethers, aldehydes versus ketones, and carboxylic acids versus esters. By examining these specific cases, you'll learn to identify the key functional groups that differentiate isomers with the same molecular formula. These examples underscore the importance of recognizing functional groups in organic chemistry."
-      },
-      {
-        "chapter_title": "Introduction to Double Bond Equivalent (DBE)",
-        "summary_text": "This chapter introduces the Double Bond Equivalent (DBE) as a powerful tool to predict the presence of unsaturation (double or triple bonds) and/or rings within a molecule. Understanding DBE helps narrow down the possibilities when trying to determine the structural formula of an unknown compound, given its molecular formula. It's a valuable technique for quickly assessing the degree of unsaturation."
-      },
-      {
-        "chapter_title": "DBE Formula and Calculation",
-        "summary_text": "This chapter focuses on the DBE formula and provides a step-by-step guide on how to calculate it. The formula is clearly explained, and an example calculation using C3H6O is provided to illustrate the process. Mastering this calculation is essential for applying the DBE concept to structural determination problems."
-      },
-      {
-        "chapter_title": "Isomers with DBE = 1 (C3H6O)",
-        "summary_text": "This chapter explores the isomers possible for the molecule C3H6O, given that its DBE is 1. This means that the molecule must contain either one double bond or one ring. The chapter examines the possible aldehydes, ketones, alcohols, and ethers that fit this criteria, demonstrating how DBE helps limit the possibilities and guides the structural elucidation process."
-      },
-      {
-        "chapter_title": "Isomers with DBE = 2 (C4H6)",
-        "summary_text": "This chapter delves into the structural possibilities for the molecule C4H6, which has a DBE of 2. This higher DBE value leads to a greater variety of possible structures, including molecules with two double bonds, one triple bond, two rings, or a combination of a double bond and a ring. The chapter illustrates how DBE helps predict and categorize the different structural types that can exist."
-      },
-      {
-        "chapter_title": "Isomers with DBE = 3",
-        "summary_text": "This chapter briefly discusses the possibilities for a molecule with a DBE of 3. While not explored in detail, it highlights the increasing complexity and variety of structures that can arise as the DBE value increases, including multiple double bonds, triple bonds, and rings."
+        "summary_text": "A brief discussion on the possibilities when DBE is equal to 3. These possibilities include structures with 3 double bonds, a double bond and a triple bond, one double bond and 2 rings, 2 double bonds and a ring, or 3 rings attached together.",
+        "description": "Expanding the possibilities when DBE = 3."
       }
     ],
     "tags": [
-      "Functional Isomerism",
-      "Isomers",
-      "Molecular Formula",
-      "Functional Groups",
-      "Double Bond Equivalent (DBE)",
-      "Degree of Unsaturation",
-      "Ring Structures",
-      "Double Bonds",
-      "Triple Bonds",
-      "Aldehydes",
-      "Ketones",
-      "Alcohols",
-      "Ethers",
-      "JEE",
-      "NEET"
-    ],
-    "keyframes": [
-      {
-        "timestamp": "00:00:12.240",
-        "description": "First example of functional isomers: Alcohol (C2H6O) vs Ether (C2H6O)."
-      },
-      {
-        "timestamp": "00:02:58.400",
-        "description": "Introduction of the Double Bond Equivalent (DBE) concept."
-      },
-      {
-        "timestamp": "00:03:34.960",
-        "description": "Presentation of the DBE formula: DBE = C - (H/2) + (N/2) + 1."
-      },
-      {
-        "timestamp": "00:04:10.000",
-        "description": "Explanation that DBE = 1 indicates either a double bond or a ring."
-      },
-      {
-        "timestamp": "00:05:33.439",
-        "description": "Cyclic structure example when DBE equals to 1"
-      },
-      {
-        "timestamp": "00:06:35.040",
-        "description": "Explanation that DBE = 2 indicates two double bonds, one triple bond, or two rings."
-      }
+      "functional isomerism",
+      "isomers",
+      "molecular formula",
+      "functional groups",
+      "double bond equivalent",
+      "DBE",
+      "structural isomers",
+      "aldehydes",
+      "ketones",
+      "alcohols",
+      "ethers",
+      "cyclic compounds"
     ],
     "Q&A": [
       {
-        "question": "What is functional isomerism, and how does it differ from other types of isomerism?",
-        "answer": "Functional isomerism occurs when compounds share the same molecular formula but have different functional groups. This contrasts with other types of isomerism, such as structural isomerism (different connectivity) or stereoisomerism (different spatial arrangement)."
+        "question": "What is functional isomerism?",
+        "answer": "Functional isomerism occurs when compounds have the same molecular formula but different functional groups."
       },
       {
-        "question": "Explain the purpose of calculating the Double Bond Equivalent (DBE).",
-        "answer": "The DBE helps determine the number of rings and/or pi bonds (double or triple bonds) present in a molecule. This information is useful in predicting the possible structures of a compound given its molecular formula."
+        "question": "Give an example of functional isomers.",
+        "answer": "Ethanol (CH<sub>3</sub>CH<sub>2</sub>OH) and dimethyl ether (CH<sub>3</sub>OCH<sub>3</sub>) are functional isomers because they both have the molecular formula C<sub>2</sub>H<sub>6</sub>O but different functional groups (alcohol and ether, respectively)."
       },
       {
-        "question": "How does a DBE value of 0 affect the possible structures of a molecule?",
-        "answer": "A DBE of 0 indicates that the molecule is saturated and contains no rings or pi bonds. It consists only of single bonds and is acyclic."
+        "question": "Explain the concept of Double Bond Equivalent (DBE).",
+        "answer": "Double Bond Equivalent (DBE) indicates the number of rings or pi bonds (double or triple bonds) present in a molecule. It helps to determine the degree of unsaturation in a molecule."
       },
       {
-        "question": "A compound has the molecular formula C5H8. Calculate its DBE.",
-        "answer": "DBE = 5 - (8/2) + 1 = 2"
+        "question": "What is the formula to calculate DBE?",
+        "answer": "The formula to calculate DBE is: $$DBE = C - (H/2) + (N/2) + 1$$, where C is the number of carbon atoms, H is the number of hydrogen atoms, and N is the number of nitrogen atoms."
       },
       {
-        "question": "A compound with the molecular formula C4H6O has a DBE of 2. What types of structures are possible for this compound?",
-        "answer": "Possible structures include compounds with two double bonds, one triple bond, two rings, or one double bond and one ring, as well as combinations of carbonyl and unsaturated groups."
+        "question": "Calculate the DBE for a compound with the molecular formula C<sub>6</sub>H<sub>6</sub>.",
+        "answer": "Using the DBE formula: $$DBE = 6 - (6/2) + 1 = 6 - 3 + 1 = 4$$. This indicates the presence of 4 rings or pi bonds."
       },
       {
-        "question": "Calculate the DBE for a compound with the molecular formula C6H5N.",
-        "answer": "DBE = 6 - (5/2) + (1/2) + 1 = 5. This high DBE value suggests a highly unsaturated or cyclic structure, such as a benzene ring with a nitrogen-containing substituent."
+        "question": "A compound has the molecular formula C<sub>4</sub>H<sub>6</sub> and a DBE of 2. Draw two possible structural isomers.",
+        "answer": "Since DBE is 2, possible isomers include two double bonds or one triple bond. Two possible structures: 1) CH<sub>2</sub>=CH-CH=CH<sub>2</sub> (1,3-butadiene) and 2) CH\u2261C-CH<sub>2</sub>-CH<sub>3</sub> (1-butyne)."
       },
       {
-        "question": "Compound X has the molecular formula C4H8O and a DBE of 1. It reacts with Tollens' reagent to form a silver mirror. Draw a possible structure of Compound X.",
-        "answer": "Since it reacts with Tollens' reagent, it's an aldehyde. With DBE = 1, it has one double bond or a ring. Therefore, one possible structure is CH3-CH2-CH2-CHO (Butanal)."
+        "question": "How many structural isomers are possible for C<sub>3</sub>H<sub>6</sub>O with DBE = 1?",
+        "answer": "With DBE = 1, possible isomers include aldehyde, ketone, alcohol with a double bond and ether with a double bond. From the video, nine structures in total are found, including cyclic ones."
       },
       {
-        "question": "Compound Y has the molecular formula C5H10 and is found to be an alkene. When treated with HBr, it forms a single monobrominated product. Propose a structure for Compound Y.",
-        "answer": "The fact that only *one* monobrominated product forms implies Compound Y is symmetrical. Since it's an alkene with formula C5H10 and thus DBE of 1, it must be an alkene and also symmetrical. Therefore, the most likely structure is 2-methylbut-2-ene or 2,3-dimethylbut-2-ene."
+        "question": "A compound with formula C<sub>5</sub>H<sub>8</sub> has DBE = 2. Draw two isomers.",
+        "answer": "With DBE = 2, possibilities include two double bonds, one triple bond or a ring and a double bond. Possible answers: Pent-1-en-4-yne CH\u2261C-CH<sub>2</sub>-CH=CH<sub>2</sub> or cyclopentene."
       },
       {
-        "question": "Two organic compounds A and B have the same molecular formula C3H6O. Compound A reduces Fehling's solution, whereas compound B does not. Identify compounds A and B and provide their structures.",
-        "answer": "Compound A is an aldehyde (propanal: CH3CH2CHO) because it reduces Fehling's solution. Compound B is a ketone (propanone/acetone: CH3COCH3) because ketones do not reduce Fehling's solution. Both have the same molecular formula."
-      },
-      {
-        "question": "An organic compound C has the molecular formula C4H8O2. It has a fruity smell and is commonly used as a solvent. What functional group is likely present in compound C? Give a possible structure.",
-        "answer": "The fruity smell suggests it's an ester. Formula C4H8O2 confirms this. One possible structure is ethyl ethanoate (CH3COOCH2CH3)."
+        "question": "A cyclic compound has a molecular formula of C<sub>4</sub>H<sub>6</sub>. What is the DBE?",
+        "answer": "Using the formula: $$DBE = 4 - (6/2) + 1 = 4 - 3 + 1 = 2$$"
       }
     ]
   }

@@ -1,0 +1,1486 @@
+{
+  "audio_segments": [
+    {
+      "id": 1,
+      "transcript": "So, far we have been focusing on questions where all the forces are either horizontal",
+      "start_time": "00:00:00.000",
+      "end_time": "00:00:14.280"
+    },
+    {
+      "id": 2,
+      "transcript": "or they are vertical upward downward, right.",
+      "start_time": "00:00:14.280",
+      "end_time": "00:00:17.280"
+    },
+    {
+      "id": 3,
+      "transcript": "But many times what happens is that forces are obviously, are at an angle.",
+      "start_time": "00:00:17.280",
+      "end_time": "00:00:20.600"
+    },
+    {
+      "id": 4,
+      "transcript": "So, we need to know what to do in such a case.",
+      "start_time": "00:00:20.600",
+      "end_time": "00:00:22.400"
+    },
+    {
+      "id": 5,
+      "transcript": "So, for example, if I had a block and it has a force that is acting this way, now how do",
+      "start_time": "00:00:22.400",
+      "end_time": "00:00:29.199"
+    },
+    {
+      "id": 6,
+      "transcript": "I deal with such a force, okay.",
+      "start_time": "00:00:29.199",
+      "end_time": "00:00:31.199"
+    },
+    {
+      "id": 7,
+      "transcript": "So, standard approach is to convert everything to a combination of horizontal and vertical",
+      "start_time": "00:00:31.199",
+      "end_time": "00:00:36.719"
+    },
+    {
+      "id": 8,
+      "transcript": "forces.",
+      "start_time": "00:00:36.719",
+      "end_time": "00:00:37.719"
+    },
+    {
+      "id": 9,
+      "transcript": "So, we will say that this force is actually so much horizontal and so much vertical.",
+      "start_time": "00:00:37.719",
+      "end_time": "00:00:44.240"
+    },
+    {
+      "id": 10,
+      "transcript": "You can always break up a force that is like this into a horizontal component and a vertical",
+      "start_time": "00:00:44.240",
+      "end_time": "00:00:49.879"
+    },
+    {
+      "id": 11,
+      "transcript": "component.",
+      "start_time": "00:00:49.879",
+      "end_time": "00:00:51.439"
+    },
+    {
+      "id": 12,
+      "transcript": "This thing we call I cap, so this direction you know we call it I cap direction, this direction",
+      "start_time": "00:00:51.439",
+      "end_time": "00:00:57.879"
+    },
+    {
+      "id": 13,
+      "transcript": "we call it J cap direction.",
+      "start_time": "00:00:57.880",
+      "end_time": "00:01:00.080"
+    },
+    {
+      "id": 14,
+      "transcript": "So, what does that mean?",
+      "start_time": "00:01:00.080",
+      "end_time": "00:01:01.440"
+    },
+    {
+      "id": 15,
+      "transcript": "That means if I have three units like this, I cap is one unit.",
+      "start_time": "00:01:01.440",
+      "end_time": "00:01:06.400"
+    },
+    {
+      "id": 16,
+      "transcript": "So, if I have three units like this, it is I cap plus I cap plus I cap, we will write",
+      "start_time": "00:01:06.400",
+      "end_time": "00:01:12.079"
+    },
+    {
+      "id": 17,
+      "transcript": "it as three I cap.",
+      "start_time": "00:01:12.079",
+      "end_time": "00:01:15.439"
+    },
+    {
+      "id": 18,
+      "transcript": "What does that mean?",
+      "start_time": "00:01:15.439",
+      "end_time": "00:01:16.439"
+    },
+    {
+      "id": 19,
+      "transcript": "The length is three, okay.",
+      "start_time": "00:01:16.439",
+      "end_time": "00:01:18.560"
+    },
+    {
+      "id": 20,
+      "transcript": "I cap has length one.",
+      "start_time": "00:01:18.560",
+      "end_time": "00:01:20.599"
+    },
+    {
+      "id": 21,
+      "transcript": "Now, if in this direction I have a force which is four units long, I won't say",
+      "start_time": "00:01:20.599",
+      "end_time": "00:01:27.680"
+    },
+    {
+      "id": 22,
+      "transcript": "four I cap, I will say four J cap and then this force which is actually this force",
+      "start_time": "00:01:27.680",
+      "end_time": "00:01:37.120"
+    },
+    {
+      "id": 23,
+      "transcript": "plus that force.",
+      "start_time": "00:01:37.120",
+      "end_time": "00:01:38.120"
+    },
+    {
+      "id": 24,
+      "transcript": "Now, this plus is not the usual plus, it is not three plus four, it is three like this",
+      "start_time": "00:01:38.120",
+      "end_time": "00:01:43.680"
+    },
+    {
+      "id": 25,
+      "transcript": "plus four like this.",
+      "start_time": "00:01:43.680",
+      "end_time": "00:01:44.680"
+    },
+    {
+      "id": 26,
+      "transcript": "So, for example, if I go three units horizontally and I go four units vertically, have",
+      "start_time": "00:01:44.680",
+      "end_time": "00:01:51.960"
+    },
+    {
+      "id": 27,
+      "transcript": "I gone seven units, no rate, I walk seven units.",
+      "start_time": "00:01:51.960",
+      "end_time": "00:01:57.640"
+    },
+    {
+      "id": 28,
+      "transcript": "By displacement would actually be this much.",
+      "start_time": "00:01:57.640",
+      "end_time": "00:02:01.320"
+    },
+    {
+      "id": 29,
+      "transcript": "Now, how much is this Pythagoras theorem tells us that A square plus B square is C square.",
+      "start_time": "00:02:01.320",
+      "end_time": "00:02:07.599"
+    },
+    {
+      "id": 30,
+      "transcript": "So, this is root of three square plus four square.",
+      "start_time": "00:02:07.599",
+      "end_time": "00:02:13.599"
+    },
+    {
+      "id": 31,
+      "transcript": "Now, that is 9 plus 16, 25, so root of 25 is 5.",
+      "start_time": "00:02:13.599",
+      "end_time": "00:02:18.879"
+    },
+    {
+      "id": 32,
+      "transcript": "But this is not length 5, this is a vector, it is in a direction.",
+      "start_time": "00:02:18.879",
+      "end_time": "00:02:22.840"
+    },
+    {
+      "id": 33,
+      "transcript": "So, this is not the best way to write it.",
+      "start_time": "00:02:22.840",
+      "end_time": "00:02:25.680"
+    },
+    {
+      "id": 34,
+      "transcript": "What I will do is I will say that this vector f, usually we will put an arrow on top, is",
+      "start_time": "00:02:25.680",
+      "end_time": "00:02:33.400"
+    },
+    {
+      "id": 35,
+      "transcript": "just simply three I cap plus four J cap, Newton's, if this was in Newton's, it is three",
+      "start_time": "00:02:33.400",
+      "end_time": "00:02:41.400"
+    },
+    {
+      "id": 36,
+      "transcript": "I cap plus four J cap, Newton's.",
+      "start_time": "00:02:41.400",
+      "end_time": "00:02:44.439"
+    },
+    {
+      "id": 37,
+      "transcript": "This is the answer, not this, that is not the answer.",
+      "start_time": "00:02:44.439",
+      "end_time": "00:02:48.640"
+    },
+    {
+      "id": 38,
+      "transcript": "But magnitude of f, you do not want to know what is the value of f, but you want to know",
+      "start_time": "00:02:48.640",
+      "end_time": "00:02:53.560"
+    },
+    {
+      "id": 39,
+      "transcript": "the magnitude of f, which means we only want the length, then we can say that is equal",
+      "start_time": "00:02:53.560",
+      "end_time": "00:03:01.000"
+    },
+    {
+      "id": 40,
+      "transcript": "to root of three square plus four square, which is 5.",
+      "start_time": "00:03:01.000",
+      "end_time": "00:03:06.599"
+    },
+    {
+      "id": 41,
+      "transcript": "But the force is not this, force is three I cap plus four J cap.",
+      "start_time": "00:03:06.599",
+      "end_time": "00:03:12.520"
+    },
+    {
+      "id": 42,
+      "transcript": "Suppose I had a force, which was like this, this force, which I have broken it up like",
+      "start_time": "00:03:12.520",
+      "end_time": "00:03:19.159"
+    },
+    {
+      "id": 43,
+      "transcript": "that.",
+      "start_time": "00:03:19.159",
+      "end_time": "00:03:20.159"
+    },
+    {
+      "id": 44,
+      "transcript": "Suppose this was six I cap and this was, well now let us think if it was upward I would",
+      "start_time": "00:03:20.159",
+      "end_time": "00:03:26.359"
+    },
+    {
+      "id": 45,
+      "transcript": "be calling it J cap, now it is downward, so I will be calling it minus J cap, but usually",
+      "start_time": "00:03:26.359",
+      "end_time": "00:03:31.120"
+    },
+    {
+      "id": 46,
+      "transcript": "we put the minus in front, so let us say minus 5 J cap.",
+      "start_time": "00:03:31.120",
+      "end_time": "00:03:38.479"
+    },
+    {
+      "id": 47,
+      "transcript": "What is this force, it is just simply six I cap minus 5 J cap, that is it over.",
+      "start_time": "00:03:38.479",
+      "end_time": "00:03:46.280"
+    },
+    {
+      "id": 48,
+      "transcript": "So suppose I ask you, let us add this force plus this force, is that easy, suppose this",
+      "start_time": "00:03:46.280",
+      "end_time": "00:03:53.920"
+    },
+    {
+      "id": 49,
+      "transcript": "was two units, two newtons and this was three newtons, what is the total force, five newtons,",
+      "start_time": "00:03:53.920",
+      "end_time": "00:04:02.479"
+    },
+    {
+      "id": 50,
+      "transcript": "this is easy, suppose I had two newtons and I had to add like this six newtons, what",
+      "start_time": "00:04:02.479",
+      "end_time": "00:04:12.199"
+    },
+    {
+      "id": 51,
+      "transcript": "is the total force, two minus six, so minus four, so here we will say it is minus four",
+      "start_time": "00:04:12.200",
+      "end_time": "00:04:19.560"
+    },
+    {
+      "id": 52,
+      "transcript": "newtons, why, because you see, two this way and six that way, this is going to be my",
+      "start_time": "00:04:19.560",
+      "end_time": "00:04:25.360"
+    },
+    {
+      "id": 53,
+      "transcript": "resultant force minus four newtons, if I assume this to be the positive direction, but",
+      "start_time": "00:04:25.360",
+      "end_time": "00:04:32.480"
+    },
+    {
+      "id": 54,
+      "transcript": "it is four newtons in this direction, now these are all easy, we have already seen what",
+      "start_time": "00:04:32.480",
+      "end_time": "00:04:37.640"
+    },
+    {
+      "id": 55,
+      "transcript": "to do if it is perpendicular, suppose I ask you what about this force plus some force",
+      "start_time": "00:04:37.639",
+      "end_time": "00:04:44.639"
+    },
+    {
+      "id": 56,
+      "transcript": "like this, this force, it is not even perpendicular, that is the resultant force is this,",
+      "start_time": "00:04:44.639",
+      "end_time": "00:04:52.079"
+    },
+    {
+      "id": 57,
+      "transcript": "but how do I add this force and that force, tough, right, but if somebody gave me this",
+      "start_time": "00:04:52.079",
+      "end_time": "00:04:58.399"
+    },
+    {
+      "id": 58,
+      "transcript": "force in this form, suppose they say this is seven newtons making an angle of something",
+      "start_time": "00:04:58.399",
+      "end_time": "00:05:05.399"
+    },
+    {
+      "id": 59,
+      "transcript": "40 degrees with this very difficult, but instead of doing this, suppose they had given",
+      "start_time": "00:05:05.400",
+      "end_time": "00:05:13.520"
+    },
+    {
+      "id": 60,
+      "transcript": "it like this, they had said I have here a force which is let us say four I cap plus",
+      "start_time": "00:05:13.520",
+      "end_time": "00:05:22.320"
+    },
+    {
+      "id": 61,
+      "transcript": "3 j cap, another force like this, let us say two I cap minus one j cap, so this is a little",
+      "start_time": "00:05:22.320",
+      "end_time": "00:05:34.200"
+    },
+    {
+      "id": 62,
+      "transcript": "longer and that is a little shorter, now what is this force, just add these two straight",
+      "start_time": "00:05:34.199",
+      "end_time": "00:05:41.479"
+    },
+    {
+      "id": 63,
+      "transcript": "away, four I cap plus two I cap, how much is that, six I cap, three j cap minus j cap,",
+      "start_time": "00:05:41.479",
+      "end_time": "00:05:48.560"
+    },
+    {
+      "id": 64,
+      "transcript": "how much is that, plus two j cap, that is it, four, now suppose you want the length of",
+      "start_time": "00:05:48.560",
+      "end_time": "00:05:54.680"
+    },
+    {
+      "id": 65,
+      "transcript": "this, you want the length not the force, so the force is this, but what is the length",
+      "start_time": "00:05:54.680",
+      "end_time": "00:06:01.120"
+    },
+    {
+      "id": 66,
+      "transcript": "of this force, we will write that just as f without the arrow, what is the length of this",
+      "start_time": "00:06:01.120",
+      "end_time": "00:06:09.639"
+    },
+    {
+      "id": 67,
+      "transcript": "force, very simple root of this square plus that square root of six square plus two square,",
+      "start_time": "00:06:09.639",
+      "end_time": "00:06:17.399"
+    },
+    {
+      "id": 68,
+      "transcript": "we can calculate it, but that is the basic idea, why is that the case, because six I cap",
+      "start_time": "00:06:17.399",
+      "end_time": "00:06:21.800"
+    },
+    {
+      "id": 69,
+      "transcript": "plus two j cap means this is six I cap and that is two j cap, what is this length six,",
+      "start_time": "00:06:21.800",
+      "end_time": "00:06:31.360"
+    },
+    {
+      "id": 70,
+      "transcript": "what is that length two, so what is this length, Pythagoras theorem says root of six",
+      "start_time": "00:06:31.360",
+      "end_time": "00:06:35.960"
+    },
+    {
+      "id": 71,
+      "transcript": "square plus two square and that is what I have written, so once you write the force in",
+      "start_time": "00:06:35.960",
+      "end_time": "00:06:41.319"
+    },
+    {
+      "id": 72,
+      "transcript": "the form of I and J the question becomes extremely easy, in neat usually you get one or",
+      "start_time": "00:06:41.319",
+      "end_time": "00:06:47.480"
+    },
+    {
+      "id": 73,
+      "transcript": "two questions where, the question itself is given in I and J form, but then sometimes",
+      "start_time": "00:06:47.480",
+      "end_time": "00:06:52.640"
+    },
+    {
+      "id": 74,
+      "transcript": "the question is not given in I and J form, so then means you need to convert it into I",
+      "start_time": "00:06:52.640",
+      "end_time": "00:06:56.480"
+    },
+    {
+      "id": 75,
+      "transcript": "and J form, so first let us start looking at what to do if the question is given in I and",
+      "start_time": "00:06:56.480",
+      "end_time": "00:07:00.960"
+    },
+    {
+      "id": 76,
+      "transcript": "J form, so now let us look at questions where we are looking at all objects only in space,",
+      "start_time": "00:07:00.960",
+      "end_time": "00:07:09.000"
+    },
+    {
+      "id": 77,
+      "transcript": "after that we will worry about objects on the ground, now what happens when you have objects",
+      "start_time": "00:07:09.000",
+      "end_time": "00:07:12.960"
+    },
+    {
+      "id": 78,
+      "transcript": "in space, you do not have to worry about gravitational force, so they are all hanging",
+      "start_time": "00:07:12.960",
+      "end_time": "00:07:15.680"
+    },
+    {
+      "id": 79,
+      "transcript": "in space, just for easy calculation, now if I have this 5 kg block in space with three forces",
+      "start_time": "00:07:15.680",
+      "end_time": "00:07:22.400"
+    },
+    {
+      "id": 80,
+      "transcript": "acting on it what is its acceleration, now in all cases I am really asking you to find",
+      "start_time": "00:07:22.400",
+      "end_time": "00:07:27.000"
+    },
+    {
+      "id": 81,
+      "transcript": "acceleration right, so let us think about it six plus eight how much is that 14 minus",
+      "start_time": "00:07:27.000",
+      "end_time": "00:07:33.639"
+    },
+    {
+      "id": 82,
+      "transcript": "four, so that is 10, so acceleration is 10 divided by 5, 2 meters per second square in",
+      "start_time": "00:07:33.639",
+      "end_time": "00:07:41.280"
+    },
+    {
+      "id": 83,
+      "transcript": "that direction correct, now this we have done earlier, so",
+      "start_time": "00:07:41.280",
+      "end_time": "00:07:45.639"
+    },
+    {
+      "id": 84,
+      "transcript": "really this is quite easy, I will write this now as acceleration is two I cap meters per",
+      "start_time": "00:07:45.639",
+      "end_time": "00:07:53.399"
+    },
+    {
+      "id": 85,
+      "transcript": "second square, if I write it this way I do not have to say that way, do you understand",
+      "start_time": "00:07:53.399",
+      "end_time": "00:07:59.800"
+    },
+    {
+      "id": 86,
+      "transcript": "because this is already I cap, so that is the reason we introduce this question, now let",
+      "start_time": "00:07:59.800",
+      "end_time": "00:08:04.439"
+    },
+    {
+      "id": 87,
+      "transcript": "us think about the other questions, so suppose I take this question, but in this question",
+      "start_time": "00:08:04.439",
+      "end_time": "00:08:09.079"
+    },
+    {
+      "id": 88,
+      "transcript": "there is one force like this one like this and one like that I want the acceleration,",
+      "start_time": "00:08:09.079",
+      "end_time": "00:08:14.039"
+    },
+    {
+      "id": 89,
+      "transcript": "acceleration is a vector and it is net force by mass right, what is net force here,",
+      "start_time": "00:08:14.040",
+      "end_time": "00:08:25.360"
+    },
+    {
+      "id": 90,
+      "transcript": "let us see this is four I cap plus six J cap, what about this one 7 I cap, it is not",
+      "start_time": "00:08:25.360",
+      "end_time": "00:08:33.080"
+    },
+    {
+      "id": 91,
+      "transcript": "given, but you know it is horizontal and it is that way, so it is 7 I cap, what about this",
+      "start_time": "00:08:33.080",
+      "end_time": "00:08:37.759"
+    },
+    {
+      "id": 92,
+      "transcript": "one minus two I cap plus four J cap, how do you find how do you add all this up add all I",
+      "start_time": "00:08:37.759",
+      "end_time": "00:08:43.600"
+    },
+    {
+      "id": 93,
+      "transcript": "caps together, minus two I cap plus four I cap which is two I cap plus 7 I cap which is 9 I cap",
+      "start_time": "00:08:43.600",
+      "end_time": "00:08:52.319"
+    },
+    {
+      "id": 94,
+      "transcript": "4 J cap plus six J cap 10 J cap divided by 2 which means the acceleration is 4.5 I cap",
+      "start_time": "00:08:52.319",
+      "end_time": "00:09:07.600"
+    },
+    {
+      "id": 95,
+      "transcript": "plus 5 J cap meters per second square, now 4.5 I cap plus 5 J cap will look like this direction,",
+      "start_time": "00:09:07.680",
+      "end_time": "00:09:18.720"
+    },
+    {
+      "id": 96,
+      "transcript": "so this is the acceleration direction, now is this the magnitude of acceleration or is this the",
+      "start_time": "00:09:19.759",
+      "end_time": "00:09:25.759"
+    },
+    {
+      "id": 97,
+      "transcript": "direction plus magnitude of acceleration both right, this includes direction, it also has",
+      "start_time": "00:09:25.759",
+      "end_time": "00:09:32.160"
+    },
+    {
+      "id": 98,
+      "transcript": "everything in it, so this is the full acceleration, suppose somebody asks this I do not want",
+      "start_time": "00:09:32.240",
+      "end_time": "00:09:37.679"
+    },
+    {
+      "id": 99,
+      "transcript": "A, but I want magnitude of A, then you say root of 4.5 square plus 5 square, every time you",
+      "start_time": "00:09:37.679",
+      "end_time": "00:09:47.919"
+    },
+    {
+      "id": 100,
+      "transcript": "do not need to draw the right angle triangle, you can directly say that if it is x i cap plus y J cap",
+      "start_time": "00:09:47.919",
+      "end_time": "00:09:54.079"
+    },
+    {
+      "id": 101,
+      "transcript": "it is x square plus y square root of that that will be the magnitude, so is that clear, so if I",
+      "start_time": "00:09:54.079",
+      "end_time": "00:09:59.279"
+    },
+    {
+      "id": 102,
+      "transcript": "am given a force like this it is very easy to add these forces and come up with one single",
+      "start_time": "00:09:59.279",
+      "end_time": "00:10:04.480"
+    },
+    {
+      "id": 103,
+      "transcript": "force therefore you can find the acceleration, is that clear, now that is because I have given",
+      "start_time": "00:10:04.480",
+      "end_time": "00:10:09.600"
+    },
+    {
+      "id": 104,
+      "transcript": "the format i and j that is very important, if you do not get that format convert it into that",
+      "start_time": "00:10:09.600",
+      "end_time": "00:10:15.839"
+    },
+    {
+      "id": 105,
+      "transcript": "format, sometimes what happens is this is the easier one people look at this and I do not know",
+      "start_time": "00:10:15.839",
+      "end_time": "00:10:20.240"
+    },
+    {
+      "id": 106,
+      "transcript": "what to do, but I hope that is very clear you know what to do with this, now let us take a slightly",
+      "start_time": "00:10:20.240",
+      "end_time": "00:10:24.799"
+    },
+    {
+      "id": 107,
+      "transcript": "more complex question, so I am going to look at this question, so if I look at this question,",
+      "start_time": "00:10:24.880",
+      "end_time": "00:10:29.840"
+    },
+    {
+      "id": 108,
+      "transcript": "then in this question I have a force f, how much I do not know, but I have another force horizontal",
+      "start_time": "00:10:31.040",
+      "end_time": "00:10:38.240"
+    },
+    {
+      "id": 109,
+      "transcript": "direction, what should I write this, then I cap, this is already given as minus 5 i cap minus",
+      "start_time": "00:10:38.240",
+      "end_time": "00:10:45.520"
+    },
+    {
+      "id": 110,
+      "transcript": "phase 5 j cap, minus 5 i cap minus 5 i cap minus 5 j cap that is what is pointing in the downward",
+      "start_time": "00:10:45.520",
+      "end_time": "00:10:51.360"
+    },
+    {
+      "id": 111,
+      "transcript": "direction like that, now if I look at the acceleration of this 3 kg block that is given,",
+      "start_time": "00:10:51.519",
+      "end_time": "00:10:56.399"
+    },
+    {
+      "id": 112,
+      "transcript": "do you remember Newton's second law, what is it, net forces mass into acceleration, now this",
+      "start_time": "00:10:58.320",
+      "end_time": "00:11:04.560"
+    },
+    {
+      "id": 113,
+      "transcript": "force is some angle, I do not know what angle, let us write this as f vector, net force is this",
+      "start_time": "00:11:04.560",
+      "end_time": "00:11:10.240"
+    },
+    {
+      "id": 114,
+      "transcript": "force plus this force plus this force plus this force, so if I write it here I will write f plus 10 i cap",
+      "start_time": "00:11:10.240",
+      "end_time": "00:11:19.360"
+    },
+    {
+      "id": 115,
+      "transcript": "minus 5 i cap minus 5 j cap, this is the total rate, this must be equal to mass into acceleration,",
+      "start_time": "00:11:20.320",
+      "end_time": "00:11:31.039"
+    },
+    {
+      "id": 116,
+      "transcript": "so 3 times 2 i cap plus 3 j cap, if you remember earlier I told you first write M A,",
+      "start_time": "00:11:31.039",
+      "end_time": "00:11:40.000"
+    },
+    {
+      "id": 117,
+      "transcript": "but that was because you were not using i and j, with i and j the direction is already there,",
+      "start_time": "00:11:40.720",
+      "end_time": "00:11:45.840"
+    },
+    {
+      "id": 118,
+      "transcript": "so whether you write this first or whether you write that first does not matter,",
+      "start_time": "00:11:46.000",
+      "end_time": "00:11:49.040"
+    },
+    {
+      "id": 119,
+      "transcript": "okay, so if you use vectors it is very straightforward and simple, so f if I solve this is 6 i cap",
+      "start_time": "00:11:49.040",
+      "end_time": "00:11:56.160"
+    },
+    {
+      "id": 120,
+      "transcript": "that is 10 i cap, this is 10 minus 5, how much is this, 5 i cap, so when you bring 5 i cap here",
+      "start_time": "00:11:56.160",
+      "end_time": "00:12:03.120"
+    },
+    {
+      "id": 121,
+      "transcript": "6 minus 5 1, so this is going to be 1 i cap, this is 9 j cap that is minus 5 j cap, so when it",
+      "start_time": "00:12:03.120",
+      "end_time": "00:12:10.560"
+    },
+    {
+      "id": 122,
+      "transcript": "comes here it will become plus 5 9 plus 5 14, so that means the force unknown force here,",
+      "start_time": "00:12:10.560",
+      "end_time": "00:12:20.560"
+    },
+    {
+      "id": 123,
+      "transcript": "we found is i cap plus 14 j cap, it is a very large force, if you want it is magnitude,",
+      "start_time": "00:12:21.200",
+      "end_time": "00:12:27.440"
+    },
+    {
+      "id": 124,
+      "transcript": "what will it be, root of 1 square, because it is i cap means 1 i cap plus 14 square,",
+      "start_time": "00:12:28.160",
+      "end_time": "00:12:35.920"
+    },
+    {
+      "id": 125,
+      "transcript": "so that will be the magnitude of this force, okay, so I hope you know how to find this, if",
+      "start_time": "00:12:36.000",
+      "end_time": "00:12:40.399"
+    },
+    {
+      "id": 126,
+      "transcript": "acceleration is given you can find the unknown force, now let us look at this case,",
+      "start_time": "00:12:40.399",
+      "end_time": "00:12:44.799"
+    },
+    {
+      "id": 127,
+      "transcript": "here the actual acceleration was given, now let us let me explain what this question is like,",
+      "start_time": "00:12:45.839",
+      "end_time": "00:12:50.799"
+    },
+    {
+      "id": 128,
+      "transcript": "so you have a 3 k j block, you have 1 force minus 5 i cap plus 3 j cap, another force",
+      "start_time": "00:12:50.799",
+      "end_time": "00:12:58.799"
+    },
+    {
+      "id": 129,
+      "transcript": "don't know f, a 3rd force which is 3 i cap plus 6 j cap, Newton's, okay, in that direction,",
+      "start_time": "00:12:59.200",
+      "end_time": "00:13:08.160"
+    },
+    {
+      "id": 130,
+      "transcript": "I have been told that this block, this object is moving vertically up,",
+      "start_time": "00:13:09.200",
+      "end_time": "00:13:13.600"
+    },
+    {
+      "id": 131,
+      "transcript": "no horizontal motion, no horizontal acceleration means what,",
+      "start_time": "00:13:14.560",
+      "end_time": "00:13:18.960"
+    },
+    {
+      "id": 132,
+      "transcript": "net force in the horizontal direction must be 0, okay, so let us think about it, this is only j cap,",
+      "start_time": "00:13:20.400",
+      "end_time": "00:13:27.520"
+    },
+    {
+      "id": 133,
+      "transcript": "i cap is 0, only j cap, okay, so for example this was one of the questions that came up in",
+      "start_time": "00:13:29.120",
+      "end_time": "00:13:37.680"
+    },
+    {
+      "id": 134,
+      "transcript": "neat, one of similar kind of question came up, where what is given is you want this force such",
+      "start_time": "00:13:37.680",
+      "end_time": "00:13:44.160"
+    },
+    {
+      "id": 135,
+      "transcript": "that it is only going to go vertically, so what is what are you going to conclude, this i cap",
+      "start_time": "00:13:44.160",
+      "end_time": "00:13:50.880"
+    },
+    {
+      "id": 136,
+      "transcript": "plus that i cap plus this is also i cap, okay, this plus this plus this must become what,",
+      "start_time": "00:13:50.880",
+      "end_time": "00:13:58.160"
+    },
+    {
+      "id": 137,
+      "transcript": "0 because i cap force is 0, okay, so how much is my net i cap force, so I'll write i cap,",
+      "start_time": "00:13:58.880",
+      "end_time": "00:14:05.920"
+    },
+    {
+      "id": 138,
+      "transcript": "how much is the i cap force f plus 3 minus 5 must be 0, so what does that mean, f minus 2 is 0,",
+      "start_time": "00:14:07.040",
+      "end_time": "00:14:17.280"
+    },
+    {
+      "id": 139,
+      "transcript": "so f must be equal to 2 Newton's, so have I found out what is this force,",
+      "start_time": "00:14:17.280",
+      "end_time": "00:14:22.640"
+    },
+    {
+      "id": 140,
+      "transcript": "2 Newton's in the i cap direction, now suppose they ask you what is this acceleration,",
+      "start_time": "00:14:23.600",
+      "end_time": "00:14:29.840"
+    },
+    {
+      "id": 141,
+      "transcript": "find this acceleration, well this force plus this force plus this force became 0,",
+      "start_time": "00:14:29.840",
+      "end_time": "00:14:35.279"
+    },
+    {
+      "id": 142,
+      "transcript": "what is remaining this plus this, so how much is the net force 9 j cap Newton's, so f net",
+      "start_time": "00:14:35.840",
+      "end_time": "00:14:44.879"
+    },
+    {
+      "id": 143,
+      "transcript": "is 9 j cap Newton's, what happened to i cap, we can 0 cancelled out, but if it is 9 j cap,",
+      "start_time": "00:14:45.840",
+      "end_time": "00:14:54.960"
+    },
+    {
+      "id": 144,
+      "transcript": "net force by mass will be the acceleration, net force is 9 mass is 3, so net force by mass",
+      "start_time": "00:14:54.960",
+      "end_time": "00:15:01.840"
+    },
+    {
+      "id": 145,
+      "transcript": "3, so acceleration is f net by mass and so that is going to give me 9 divided by 3,",
+      "start_time": "00:15:02.399",
+      "end_time": "00:15:12.399"
+    },
+    {
+      "id": 146,
+      "transcript": "so it is going to be 3 j cap units meters per second square, understood, so this way what I have",
+      "start_time": "00:15:12.480",
+      "end_time": "00:15:21.600"
+    },
+    {
+      "id": 147,
+      "transcript": "done is that we can find both the force as well as the acceleration, but notice acceleration was",
+      "start_time": "00:15:21.600",
+      "end_time": "00:15:27.840"
+    },
+    {
+      "id": 148,
+      "transcript": "not given in the beginning, what was given is that it is going to be vertical, that was that's",
+      "start_time": "00:15:27.840",
+      "end_time": "00:15:32.240"
+    },
+    {
+      "id": 149,
+      "transcript": "all that was given, so is that clear how to apply something like this, if the force is given in",
+      "start_time": "00:15:32.240",
+      "end_time": "00:15:36.639"
+    },
+    {
+      "id": 150,
+      "transcript": "terms of i and j, you should be able to combine it like this and solve, now what if the",
+      "start_time": "00:15:36.639",
+      "end_time": "00:15:42.240"
+    },
+    {
+      "id": 151,
+      "transcript": "not given as i and j, what do I do, well you resolve, so let us learn how to do that,",
+      "start_time": "00:15:42.799",
+      "end_time": "00:15:48.320"
+    },
+    {
+      "id": 152,
+      "transcript": "many times we will be given forces that are inclined at some angle, let us say that this was a force",
+      "start_time": "00:15:50.320",
+      "end_time": "00:15:56.879"
+    },
+    {
+      "id": 153,
+      "transcript": "f and it makes some angle theta with the horizontal, now this is not given in the form of i and j,",
+      "start_time": "00:15:56.879",
+      "end_time": "00:16:08.720"
+    },
+    {
+      "id": 154,
+      "transcript": "i cap j cap, so we will convert it, how much i cap this much i cap plus this much j cap,",
+      "start_time": "00:16:08.720",
+      "end_time": "00:16:16.399"
+    },
+    {
+      "id": 155,
+      "transcript": "but what is this much, how do I know what is this much, so let us say it was x i cap y j cap,",
+      "start_time": "00:16:16.399",
+      "end_time": "00:16:23.519"
+    },
+    {
+      "id": 156,
+      "transcript": "but you know that this length is f, this length is x and this length is y, then y by f,",
+      "start_time": "00:16:24.800",
+      "end_time": "00:16:33.759"
+    },
+    {
+      "id": 157,
+      "transcript": "what is y by f, it is the opposite side of this right angle triangle by the high-potten use,",
+      "start_time": "00:16:33.840",
+      "end_time": "00:16:41.120"
+    },
+    {
+      "id": 158,
+      "transcript": "what is opposite by high-potten use sin theta, so this is sin of this angle,",
+      "start_time": "00:16:41.120",
+      "end_time": "00:16:47.519"
+    },
+    {
+      "id": 159,
+      "transcript": "opposite by high-potten use, so what is y f sin theta, so I will write this as f sin theta j cap",
+      "start_time": "00:16:47.519",
+      "end_time": "00:16:57.279"
+    },
+    {
+      "id": 160,
+      "transcript": "and then x by f, x by f is cos theta, so that means x is f cos theta, so instead of writing",
+      "start_time": "00:16:57.600",
+      "end_time": "00:17:08.639"
+    },
+    {
+      "id": 161,
+      "transcript": "it as x i cap I will write it as f cos theta i cap, in fact you should do this all the time",
+      "start_time": "00:17:08.639",
+      "end_time": "00:17:16.960"
+    },
+    {
+      "id": 162,
+      "transcript": "automatically, you look at this force and then you immediately say what is this component,",
+      "start_time": "00:17:16.960",
+      "end_time": "00:17:23.200"
+    },
+    {
+      "id": 163,
+      "transcript": "we call this the component f theta f cos theta, other sin f sin theta always f cos theta is",
+      "start_time": "00:17:23.200",
+      "end_time": "00:17:37.920"
+    },
+    {
+      "id": 164,
+      "transcript": "easy, f cos theta f sin theta, is that ok, so f you can rewrite, so suppose I want to rewrite",
+      "start_time": "00:17:37.920",
+      "end_time": "00:17:45.440"
+    },
+    {
+      "id": 165,
+      "transcript": "f, I will write it like this, so f you can write it as f cos theta i cap f cos theta i cap,",
+      "start_time": "00:17:45.440",
+      "end_time": "00:17:55.759"
+    },
+    {
+      "id": 166,
+      "transcript": "what is this f, just the magnitude, just the size, f cos theta i cap mix it with direction,",
+      "start_time": "00:17:55.759",
+      "end_time": "00:18:02.400"
+    },
+    {
+      "id": 167,
+      "transcript": "plus f sin theta j cap, now that means I need to remember cos theta sin theta various values for it,",
+      "start_time": "00:18:03.200",
+      "end_time": "00:18:13.680"
+    },
+    {
+      "id": 168,
+      "transcript": "I will given you a list here, you know this already, most of you probably know for angle 0,",
+      "start_time": "00:18:13.759",
+      "end_time": "00:18:19.120"
+    },
+    {
+      "id": 169,
+      "transcript": "30, 45, 60 and 90, you know sin 0 is 0, sin 30 is half ok, sin 45 is 1 by root 2, sin 60 is",
+      "start_time": "00:18:19.120",
+      "end_time": "00:18:27.680"
+    },
+    {
+      "id": 170,
+      "transcript": "root 3 by 2 and sin 90 is 1 ok, now if you do not remember you should definitely memorize this",
+      "start_time": "00:18:27.680",
+      "end_time": "00:18:32.799"
+    },
+    {
+      "id": 171,
+      "transcript": "because this is going to cover up everywhere, two important extra information,",
+      "start_time": "00:18:32.799",
+      "end_time": "00:18:38.080"
+    },
+    {
+      "id": 172,
+      "transcript": "sin 37 is almost 3 by 5 ok, so now if you look at this triangle 3 4 5, you remember this triangle,",
+      "start_time": "00:18:38.079",
+      "end_time": "00:18:51.759"
+    },
+    {
+      "id": 173,
+      "transcript": "right, now if you take this triangle this angle is almost 37 degrees, exactly you should",
+      "start_time": "00:18:51.759",
+      "end_time": "00:18:59.199"
+    },
+    {
+      "id": 174,
+      "transcript": "look at it, it will be some 36.9 something slightly less than 37, but we will call it 37 degrees,",
+      "start_time": "00:18:59.199",
+      "end_time": "00:19:05.039"
+    },
+    {
+      "id": 175,
+      "transcript": "many questions will say angle is 37, sin 37 3 by 5, cos 37 4 by 5 and then if you look at",
+      "start_time": "00:19:05.200",
+      "end_time": "00:19:14.720"
+    },
+    {
+      "id": 176,
+      "transcript": "this angle, this angle is 53 degrees, so sin 53 4 by 5, cos 53 3 by 5, just remember this,",
+      "start_time": "00:19:14.720",
+      "end_time": "00:19:25.119"
+    },
+    {
+      "id": 177,
+      "transcript": "this is a very important value to just keep in mind, so many questions will say 37 degrees,",
+      "start_time": "00:19:25.680",
+      "end_time": "00:19:31.440"
+    },
+    {
+      "id": 178,
+      "transcript": "at one stages sin 37 3 by 5 rational number integers, again there 4 by 5 integers, whereas if you",
+      "start_time": "00:19:31.519",
+      "end_time": "00:19:38.799"
+    },
+    {
+      "id": 179,
+      "transcript": "take sin 60 root 3 is difficult to play with, cos 60 is very nice, but sin 60 is not ok,",
+      "start_time": "00:19:38.799",
+      "end_time": "00:19:45.360"
+    },
+    {
+      "id": 180,
+      "transcript": "let us take an example, so for example, suppose I had 20 Newton force,",
+      "start_time": "00:19:45.360",
+      "end_time": "00:19:51.440"
+    },
+    {
+      "id": 181,
+      "transcript": "making an angle of 60 degrees, right this force as a vector, so if I write this force as",
+      "start_time": "00:19:52.880",
+      "end_time": "00:20:01.279"
+    },
+    {
+      "id": 182,
+      "transcript": "a vector, how much is this? 20 cos 60, so 20 cos 60, look at cos 60 cos 60 is half,",
+      "start_time": "00:20:01.279",
+      "end_time": "00:20:10.799"
+    },
+    {
+      "id": 183,
+      "transcript": "which means 10 like this and then what about this? 20 sin 60 sin 60 is root 3 by 2, so 10 root 3,",
+      "start_time": "00:20:13.359",
+      "end_time": "00:20:27.039"
+    },
+    {
+      "id": 184,
+      "transcript": "therefore if I call this force F, what is F? 10 I cap, plus 10 root 3 J cap, Newton's,",
+      "start_time": "00:20:27.759",
+      "end_time": "00:20:41.759"
+    },
+    {
+      "id": 185,
+      "transcript": "why is this useful? Because if I now have a question where there is one force like this, one",
+      "start_time": "00:20:48.000",
+      "end_time": "00:20:53.519"
+    },
+    {
+      "id": 186,
+      "transcript": "force like this, one force like this and I want to add, you will see that this becomes extremely",
+      "start_time": "00:20:53.519",
+      "end_time": "00:20:58.319"
+    },
+    {
+      "id": 187,
+      "transcript": "useful, ok. Now, if this was not 60 by it was 53 degrees, then I will use sin 53 4 by 5,",
+      "start_time": "00:20:58.319",
+      "end_time": "00:21:06.079"
+    },
+    {
+      "id": 188,
+      "transcript": "so cos 53 for first for this one 3 by 5 and sin 63 for that, which is 4 by 5,",
+      "start_time": "00:21:06.079",
+      "end_time": "00:21:12.879"
+    },
+    {
+      "id": 189,
+      "transcript": "you will see that there won't be a root 3, there will just be a 4 by 5, which makes it easy,",
+      "start_time": "00:21:12.879",
+      "end_time": "00:21:17.519"
+    },
+    {
+      "id": 190,
+      "transcript": "for calculation, otherwise you should know what to do with the root 3 as well, so let us do",
+      "start_time": "00:21:17.519",
+      "end_time": "00:21:22.480"
+    },
+    {
+      "id": 191,
+      "transcript": "one question where we have multiple forces and we want to find the acceleration.",
+      "start_time": "00:21:22.559",
+      "end_time": "00:21:27.039"
+    },
+    {
+      "id": 192,
+      "transcript": "So, now let us look at this question, so in this question there is a 4 kg block in space,",
+      "start_time": "00:21:28.400",
+      "end_time": "00:21:33.599"
+    },
+    {
+      "id": 193,
+      "transcript": "assume this whole thing is in space, what is the difference if it was not in space, then I am",
+      "start_time": "00:21:33.599",
+      "end_time": "00:21:39.360"
+    },
+    {
+      "id": 194,
+      "transcript": "going to have to worry about gravitational force which I am not drawing here, so it is in space.",
+      "start_time": "00:21:39.360",
+      "end_time": "00:21:43.519"
+    },
+    {
+      "id": 195,
+      "transcript": "Now, there is one force which is minus 30 plus 7 J Newton, then there is one which is 4 Newton",
+      "start_time": "00:21:44.079",
+      "end_time": "00:21:50.400"
+    },
+    {
+      "id": 196,
+      "transcript": "upward, you can always add the J and say this is 4 J cap Newton's, ok. Why is this minus",
+      "start_time": "00:21:50.400",
+      "end_time": "00:21:57.120"
+    },
+    {
+      "id": 197,
+      "transcript": "because it is this way minus 3 I cap plus 7 because it is upwards, so this way this way.",
+      "start_time": "00:21:57.120",
+      "end_time": "00:22:02.720"
+    },
+    {
+      "id": 198,
+      "transcript": "Now, that force I do not know in the IJ form, but I know it is 10 Newton magnitude at an angle",
+      "start_time": "00:22:03.759",
+      "end_time": "00:22:10.320"
+    },
+    {
+      "id": 199,
+      "transcript": "of 30 degrees and then there is a 3 I cap because it is a horizontal force, what is the acceleration",
+      "start_time": "00:22:10.320",
+      "end_time": "00:22:18.160"
+    },
+    {
+      "id": 200,
+      "transcript": "of the 4 kg block, so that is the question. How will we go about it, we will need to find the",
+      "start_time": "00:22:18.240",
+      "end_time": "00:22:24.080"
+    },
+    {
+      "id": 201,
+      "transcript": "net force and then divide by the mass, so net force by mass, what is the mass 4 kg, so this",
+      "start_time": "00:22:24.080",
+      "end_time": "00:22:34.320"
+    },
+    {
+      "id": 202,
+      "transcript": "is easy, what is the problem, net force that is the problem, so if I want this acceleration,",
+      "start_time": "00:22:34.320",
+      "end_time": "00:22:40.880"
+    },
+    {
+      "id": 203,
+      "transcript": "I need to find net force, this is easy to add, this is easy to add, this is easy to add, what",
+      "start_time": "00:22:40.880",
+      "end_time": "00:22:47.200"
+    },
+    {
+      "id": 204,
+      "transcript": "is the problem, that fellow is the problem, why, because it is some weird angle, what do I do,",
+      "start_time": "00:22:47.279",
+      "end_time": "00:22:52.080"
+    },
+    {
+      "id": 205,
+      "transcript": "I will rewrite this in the form of I and J, how much I 10 cos 30, 10, so let us write here,",
+      "start_time": "00:22:52.080",
+      "end_time": "00:23:03.120"
+    },
+    {
+      "id": 206,
+      "transcript": "10 cos 30, what is cos 30, I will write cos 30, but you should be able to calculate,",
+      "start_time": "00:23:03.759",
+      "end_time": "00:23:10.720"
+    },
+    {
+      "id": 207,
+      "transcript": "cos 30 is equal to root 3 by 2, you can see there it is root 3 by 2,",
+      "start_time": "00:23:10.720",
+      "end_time": "00:23:16.160"
+    },
+    {
+      "id": 208,
+      "transcript": "now what happens if you forget, bad luck you need to remember these values, this is going to",
+      "start_time": "00:23:16.240",
+      "end_time": "00:23:21.840"
+    },
+    {
+      "id": 209,
+      "transcript": "come up 100 times, well 1000 times, you will find this everywhere, you should memorize this entire",
+      "start_time": "00:23:21.840",
+      "end_time": "00:23:28.640"
+    },
+    {
+      "id": 210,
+      "transcript": "set and you should not take time to come up with it, you say cos 30, come on root 3 by 2, so",
+      "start_time": "00:23:28.640",
+      "end_time": "00:23:34.320"
+    },
+    {
+      "id": 211,
+      "transcript": "10 times root 3 by 2, 10 root 3 by 2 is how much, 5 root 3, Newton's, but then there is also",
+      "start_time": "00:23:34.319",
+      "end_time": "00:23:46.720"
+    },
+    {
+      "id": 212,
+      "transcript": "this component, how much is this component, 10 cos 30, 10 sin 30, so 10 sin 30 is how much half,",
+      "start_time": "00:23:46.720",
+      "end_time": "00:23:58.079"
+    },
+    {
+      "id": 213,
+      "transcript": "this is cos 30 that is automatically sin 30, so how much is this 10 into half is",
+      "start_time": "00:23:59.359",
+      "end_time": "00:24:04.240"
+    },
+    {
+      "id": 214,
+      "transcript": "5 Newton's, so this force you can rewrite this force as 5 root 3 I cap plus because it is pointing",
+      "start_time": "00:24:04.559",
+      "end_time": "00:24:17.359"
+    },
+    {
+      "id": 215,
+      "transcript": "up, if this force was pointing down it will be minus 5 J cap, but this is going up, so therefore",
+      "start_time": "00:24:17.359",
+      "end_time": "00:24:22.720"
+    },
+    {
+      "id": 216,
+      "transcript": "it is plus 5 J cap Newton's, now can you add up all the vectors you can write, so let us quickly",
+      "start_time": "00:24:22.720",
+      "end_time": "00:24:32.400"
+    },
+    {
+      "id": 217,
+      "transcript": "minus 3 I cap, so let me do all this minus 3 I cap, I do not need to add this, do I need to",
+      "start_time": "00:24:33.280",
+      "end_time": "00:24:42.080"
+    },
+    {
+      "id": 218,
+      "transcript": "add that yes plus 3 I cap, so this is done, this is done plus 5 root 3 I cap, this is also done,",
+      "start_time": "00:24:42.080",
+      "end_time": "00:24:56.320"
+    },
+    {
+      "id": 219,
+      "transcript": "now J cap, what is the J cap, so plus let me actually write the J cap down here, so plus",
+      "start_time": "00:24:56.639",
+      "end_time": "00:25:05.679"
+    },
+    {
+      "id": 220,
+      "transcript": "so much J cap, what J cap, 7 J cap, 4 J cap, anything else done, done, done, done, done,",
+      "start_time": "00:25:05.679",
+      "end_time": "00:25:19.119"
+    },
+    {
+      "id": 221,
+      "transcript": "right this part, but that is not yet done, so plus 5 J cap, divided by 4 K G, this when",
+      "start_time": "00:25:19.120",
+      "end_time": "00:25:29.840"
+    },
+    {
+      "id": 222,
+      "transcript": "in Newton's, by so many K Gs, this is going to give me meters per second square as a units,",
+      "start_time": "00:25:29.840",
+      "end_time": "00:25:36.400"
+    },
+    {
+      "id": 223,
+      "transcript": "acceleration of the 4 K G block vector vector acceleration minus 3 plus 3 cancels phi root 3,",
+      "start_time": "00:25:37.920",
+      "end_time": "00:25:48.000"
+    },
+    {
+      "id": 224,
+      "transcript": "divided by 4, so phi root 3 by 4 I cap and what is this, 5 plus 7, 7 plus 5, 12 plus 4, 16, 16",
+      "start_time": "00:25:48.079",
+      "end_time": "00:26:01.920"
+    },
+    {
+      "id": 225,
+      "transcript": "divided by 4, 4, so 4 J cap meters per second square, this is the vector, let us suppose",
+      "start_time": "00:26:01.920",
+      "end_time": "00:26:12.240"
+    },
+    {
+      "id": 226,
+      "transcript": "they ask you look at the direction, this is something I kept something J cap, it is going in",
+      "start_time": "00:26:12.240",
+      "end_time": "00:26:16.000"
+    },
+    {
+      "id": 227,
+      "transcript": "that direction, this is a messy question, but you got an easy answer, suppose somebody says",
+      "start_time": "00:26:16.000",
+      "end_time": "00:26:21.519"
+    },
+    {
+      "id": 228,
+      "transcript": "no, I do not want this, I want a magnitude, which means we write it like this just a, no",
+      "start_time": "00:26:21.519",
+      "end_time": "00:26:29.039"
+    },
+    {
+      "id": 229,
+      "transcript": "arrow on top, what is the answer, root of this square plus that square, what is this square,",
+      "start_time": "00:26:29.039",
+      "end_time": "00:26:38.160"
+    },
+    {
+      "id": 230,
+      "transcript": "phi square will be 25, 4 square 16, root of 3 whole square will basically give me 3,",
+      "start_time": "00:26:38.160",
+      "end_time": "00:26:46.640"
+    },
+    {
+      "id": 231,
+      "transcript": "plus 4 square which is 16, you can take this there, simplify 75 plus 15 16 16 is going to be",
+      "start_time": "00:26:48.080",
+      "end_time": "00:26:54.640"
+    },
+    {
+      "id": 232,
+      "transcript": "something right, 2 to 6, so you can add it, then you can take this square root, but you will get",
+      "start_time": "00:26:54.640",
+      "end_time": "00:26:59.200"
+    },
+    {
+      "id": 233,
+      "transcript": "some number, weird number and that is the answer, so much meters per second square, obviously",
+      "start_time": "00:26:59.200",
+      "end_time": "00:27:04.720"
+    },
+    {
+      "id": 234,
+      "transcript": "you need to simplify and not doing that, so is that data everybody, you understood how to",
+      "start_time": "00:27:04.720",
+      "end_time": "00:27:08.640"
+    },
+    {
+      "id": 235,
+      "transcript": "solve this problem, because what is important here is that you resolve this force, now this",
+      "start_time": "00:27:08.640",
+      "end_time": "00:27:14.720"
+    },
+    {
+      "id": 236,
+      "transcript": "was given in i and j, suppose this was also given with an angle, you will resolve, suppose",
+      "start_time": "00:27:14.720",
+      "end_time": "00:27:20.640"
+    },
+    {
+      "id": 237,
+      "transcript": "instead of giving you this angle or this angle, this angle was given, then you will say this",
+      "start_time": "00:27:20.640",
+      "end_time": "00:27:26.559"
+    },
+    {
+      "id": 238,
+      "transcript": "force cos will be that, because this angle can also be theta, then you will say f cos theta",
+      "start_time": "00:27:26.639",
+      "end_time": "00:27:35.039"
+    },
+    {
+      "id": 239,
+      "transcript": "will be that component, f sin theta will be this component, you have to be bit careful",
+      "start_time": "00:27:35.039",
+      "end_time": "00:27:41.039"
+    },
+    {
+      "id": 240,
+      "transcript": "then cos theta j cap, sin theta will give you minus i cap, because it is pointing in that direction,",
+      "start_time": "00:27:41.039",
+      "end_time": "00:27:46.799"
+    },
+    {
+      "id": 241,
+      "transcript": "luckily we do not have this in this question, but we may have, now unfortunately all the",
+      "start_time": "00:27:46.799",
+      "end_time": "00:27:52.000"
+    },
+    {
+      "id": 242,
+      "transcript": "questions we are doing are all in space, I did not have to count gravity, I did not have to",
+      "start_time": "00:27:52.079",
+      "end_time": "00:27:58.960"
+    },
+    {
+      "id": 243,
+      "transcript": "worry about a floor, now sometimes all of that will matter, so let us take a couple of questions",
+      "start_time": "00:27:58.960",
+      "end_time": "00:28:04.720"
+    },
+    {
+      "id": 244,
+      "transcript": "where you have forces acting at angles, but you have it with on the surface of the earth,",
+      "start_time": "00:28:04.720",
+      "end_time": "00:28:10.640"
+    },
+    {
+      "id": 245,
+      "transcript": "that means there is imagine a big box, a place it on a table and I am pulling like this,",
+      "start_time": "00:28:10.640",
+      "end_time": "00:28:15.599"
+    },
+    {
+      "id": 246,
+      "transcript": "forces at an angle, but the block is probably going to move horizontally, it may also move",
+      "start_time": "00:28:16.560",
+      "end_time": "00:28:23.040"
+    },
+    {
+      "id": 247,
+      "transcript": "up, but it may move horizontally, so let us look at a question like that.",
+      "start_time": "00:28:23.040",
+      "end_time": "00:28:30.160"
+    }
+  ]
+}

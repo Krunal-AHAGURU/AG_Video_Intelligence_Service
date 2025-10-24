@@ -1,0 +1,950 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:14.280
+So, far we have been focusing on questions where all the forces are either horizontal
+
+2
+00:00:14.280 --> 00:00:19.000
+or they are vertical upward downward right, but many times what happens is that forces
+
+3
+00:00:19.000 --> 00:00:22.640
+are obviously are at an angle. So, we need to know what to do in such a case. So, for
+
+4
+00:00:22.640 --> 00:00:29.560
+example, if I had a block and it has a force that is acting this way. Now, how do I deal
+
+5
+00:00:29.560 --> 00:00:34.880
+with such a force ok. So, standard approach is to convert everything to a combination
+
+6
+00:00:34.880 --> 00:00:40.640
+of horizontal and vertical forces. So, we will say that this force is actually so much
+
+7
+00:00:40.640 --> 00:00:47.680
+horizontal and so much vertical. You can always break up a force that is like this into a
+
+8
+00:00:47.680 --> 00:00:54.719
+horizontal component and a vertical component. This thing we call i cap. So, this direction
+
+9
+00:00:54.719 --> 00:01:00.320
+you know we call it i cap direction. This direction we call it j cap direction. So,
+
+10
+00:01:00.320 --> 00:01:06.680
+what does that mean? That means if I have 3 units like this i cap is 1 unit. So, if
+
+11
+00:01:06.680 --> 00:01:15.480
+I have 3 units like this it is i cap plus i cap plus i cap we will write it as 3 i cap.
+
+12
+00:01:15.480 --> 00:01:24.120
+What does that mean? The length is 3 ok i cap has length 1. Now, if in this direction
+
+13
+00:01:24.120 --> 00:01:33.600
+I have a force which is 4 units long I would not say 4 i cap I will say 4 j cap and then
+
+14
+00:01:33.600 --> 00:01:40.000
+this force which is actually this force plus that force. Now, this plus is not the usual
+
+15
+00:01:40.000 --> 00:01:47.159
+plus it is not 3 plus 4 it is 3 like this plus 4 like this. So, for example, if I go
+
+16
+00:01:47.280 --> 00:01:57.439
+3 units horizontally and I go 4 units vertically have I gone 7 units? No right I walked 7 units
+
+17
+00:01:57.439 --> 00:02:03.599
+but my displacement would actually be this much. Now, how much is this Pythagoras theorem
+
+18
+00:02:03.599 --> 00:02:12.280
+tells us that a square plus b square is c square. So, this is root of 3 square plus
+
+19
+00:02:12.280 --> 00:02:21.080
+4 square. Now, that is 9 plus 16 25. So, root of 25 is 5, but this is not length 5 this
+
+20
+00:02:21.080 --> 00:02:26.000
+is a vector it is in a direction. So, this is not the best way to write it what I will
+
+21
+00:02:26.000 --> 00:02:34.039
+do is I will say that this vector f usually we will put an arrow on top is just simply
+
+22
+00:02:34.039 --> 00:02:43.199
+3 i cap plus 4 j cap Newtons if this was in Newtons it is 3 i cap plus 4 j cap Newtons.
+
+23
+00:02:43.199 --> 00:02:50.799
+This is the answer not this that is not the answer, but magnitude of f you do not want to
+
+24
+00:02:50.799 --> 00:02:57.479
+know what is the value of f, but you want to know the magnitude of f which means we
+
+25
+00:02:57.479 --> 00:03:04.519
+only want the length then we can say that is equal to root of 3 square plus 4 square
+
+26
+00:03:04.519 --> 00:03:14.000
+which is 5, but the force is not this force is 3 i cap plus 4 j cap. Suppose I had a force
+
+27
+00:03:14.000 --> 00:03:22.039
+which was like this force which I have broken it up like that. So, suppose this was 6 i
+
+28
+00:03:22.039 --> 00:03:27.479
+cap and this was well now let us think if it was upward I would be calling it j cap.
+
+29
+00:03:27.479 --> 00:03:31.840
+Now, it is downward. So, I will be calling it minus j cap, but usually we put the minus
+
+30
+00:03:31.840 --> 00:03:43.680
+in front. So, let us say minus 5 j cap what is this force it is just simply 6 i cap minus
+
+31
+00:03:43.680 --> 00:03:50.919
+5 j cap that is it over. Now, suppose I ask you let us add this force
+
+32
+00:03:50.920 --> 00:03:58.920
+plus this force is that easy. Suppose this was 2 units 2 Newtons and this was 3 Newtons
+
+33
+00:03:58.920 --> 00:04:07.560
+what is the total force 5 Newtons this is easy. Suppose I had 2 Newtons and I had to
+
+34
+00:04:07.560 --> 00:04:17.520
+add like this 6 Newtons what is the total force 2 minus 6. So, minus 4. So, here we
+
+35
+00:04:17.519 --> 00:04:24.519
+will say it is minus 4 Newtons why because you see 2 this way and 6 that way this is
+
+36
+00:04:24.519 --> 00:04:31.199
+going to be my resultant force minus 4 Newtons if I assume this to be the positive direction
+
+37
+00:04:31.199 --> 00:04:37.599
+but it is 4 Newtons in this direction. Now, these are all easy we have already seen what
+
+38
+00:04:37.599 --> 00:04:44.639
+to do if it is perpendicular. Suppose I ask you what about this force plus some force
+
+39
+00:04:44.639 --> 00:04:52.240
+like this this force it is not even perpendicular that is the resultant force is this but how
+
+40
+00:04:52.240 --> 00:04:59.479
+do I add this force and that force tough. But if somebody gave me this force in this
+
+41
+00:04:59.479 --> 00:05:08.680
+form suppose they say this is 7 Newtons making an angle of something 40 degrees with this
+
+42
+00:05:08.680 --> 00:05:15.120
+very difficult but instead of doing this suppose they had given it like this they had said
+
+43
+00:05:15.120 --> 00:05:27.160
+I have here a force which is let us say 4 i cap plus 3 j cap another force like this
+
+44
+00:05:27.160 --> 00:05:36.199
+let us say 2 i cap minus 1 j cap ok. So, this is a little longer and that is a little shorter
+
+45
+00:05:36.199 --> 00:05:43.920
+now what is this force just add these two straight away 4 i cap plus 2 i cap how much
+
+46
+00:05:43.920 --> 00:05:53.079
+is that 6 i cap 3 j cap minus j cap how much is that plus 2 j cap that is it over.
+
+47
+00:05:53.079 --> 00:05:58.519
+Now suppose you want the length of this you want the length not the force. So, the force
+
+48
+00:05:58.519 --> 00:06:08.759
+is this but what is the length of this force we will write that just as f without the arrow
+
+49
+00:06:08.759 --> 00:06:13.399
+what is the length of this force very simple root of this square plus that square root of
+
+50
+00:06:13.399 --> 00:06:20.120
+6 square plus 2 square we can calculate it but that is the basic idea why is that the
+
+51
+00:06:20.120 --> 00:06:29.879
+case because 6 i cap plus 2 j cap means this is 6 i cap and that is 2 j cap what is this
+
+52
+00:06:29.879 --> 00:06:35.560
+length 6 what is that length 2. So, what is this length Pythagoras theorem says root
+
+53
+00:06:35.560 --> 00:06:39.280
+of 6 square plus 2 square and that is what I have written ok.
+
+54
+00:06:39.280 --> 00:06:45.720
+So, once you write the force in the form of i and j the question becomes extremely easy
+
+55
+00:06:45.720 --> 00:06:51.800
+in need usually you get 1 or 2 questions where the question itself is given in i and j form
+
+56
+00:06:51.800 --> 00:06:55.640
+but then sometimes the question is not given in i and j form. So, then means you need to
+
+57
+00:06:55.640 --> 00:07:00.120
+convert it into i and j form. So, first let us start looking at what to do if the question
+
+58
+00:07:00.120 --> 00:07:07.960
+is given in i and j form. So, now let us look at questions where we are looking at all objects
+
+59
+00:07:07.960 --> 00:07:12.400
+only in space after that we will worry about objects on the ground. Now what happens when
+
+60
+00:07:12.400 --> 00:07:15.240
+you have objects in space you do not have to worry about gravitational force. So, they
+
+61
+00:07:15.240 --> 00:07:21.600
+are all hanging in space just for easy calculation. Now if I have this 5 kg block in space with
+
+62
+00:07:21.600 --> 00:07:26.680
+3 forces acting on it what is its acceleration. Now in all questions I am really asking you
+
+63
+00:07:26.680 --> 00:07:27.680
+to find acceleration.
+
+64
+00:07:27.680 --> 00:07:36.639
+So, let us think about it 6 plus 8 how much is that 14 minus 4 so that is 10. So, acceleration
+
+65
+00:07:36.639 --> 00:07:44.759
+is 10 divided by 5 2 meters per second square in that direction correct. Now this we have
+
+66
+00:07:44.759 --> 00:07:51.279
+done earlier. So, really this is quite easy I will write this now as acceleration is 2
+
+67
+00:07:51.279 --> 00:07:58.920
+i cap meters per second square. If I write it this way I do not have to say that way
+
+68
+00:07:58.920 --> 00:08:03.279
+do you understand because this is already i cap. So, that is the reason we introduce
+
+69
+00:08:03.279 --> 00:08:04.279
+this question.
+
+70
+00:08:04.279 --> 00:08:08.599
+Now let us think about the other questions. So, suppose I take this question but in this
+
+71
+00:08:08.599 --> 00:08:13.839
+question there is one force like this one like this and one like that I want the acceleration
+
+72
+00:08:13.840 --> 00:08:25.400
+but acceleration is a vector and it is net force by mass. What is net force here? Let
+
+73
+00:08:25.400 --> 00:08:33.960
+us see this is 4 i cap plus 6 j cap what about this one 7 i cap it is not given but you know
+
+74
+00:08:33.960 --> 00:08:40.120
+it is horizontal and it is that way. So, it is 7 i cap what about this one minus 2 i cap
+
+75
+00:08:40.120 --> 00:08:45.480
+plus 4 j cap how do you find how do you add all this up add all i caps together minus 2
+
+76
+00:08:45.480 --> 00:08:56.399
+i cap plus 4 i cap which is 2 i cap plus 7 i cap which is 9 i cap 4 j cap plus 6 j cap
+
+77
+00:08:56.399 --> 00:09:12.840
+10 j cap divided by 2 which means the acceleration is 4.5 i cap plus 5 j cap meters per second
+
+78
+00:09:12.840 --> 00:09:13.840
+square.
+
+79
+00:09:13.840 --> 00:09:21.720
+Now 4.5 i cap plus 5 j cap will look like this direction. So, this is the acceleration
+
+80
+00:09:21.720 --> 00:09:27.320
+direction now is this the magnitude of acceleration or is this the direction plus magnitude of
+
+81
+00:09:27.320 --> 00:09:33.879
+acceleration both right this includes direction it also has everything in it. So, this is
+
+82
+00:09:33.879 --> 00:09:39.879
+the full acceleration suppose somebody asks us I do not want a but I want magnitude of
+
+83
+00:09:39.879 --> 00:09:50.399
+a then you say root of 4.5 square plus 5 square every time you do not need to draw the right
+
+84
+00:09:50.399 --> 00:09:54.840
+angle triangle you can directly say that if it is x i cap plus y j cap it is x square
+
+85
+00:09:54.840 --> 00:09:59.399
+plus y square root of that that will be the magnitude. So, is that clear? So, if I am
+
+86
+00:09:59.399 --> 00:10:04.439
+given a force like this it is very easy to add these forces and come up with one single
+
+87
+00:10:04.439 --> 00:10:09.639
+force therefore, you can find the acceleration is that clear now that is because I have given
+
+88
+00:10:09.639 --> 00:10:15.679
+the format i and j that is very important if you do not get that format convert it into
+
+89
+00:10:15.679 --> 00:10:19.799
+that format ok. Sometimes what happens is this is the easier one people look at this
+
+90
+00:10:20.000 --> 00:10:23.960
+I do not know what to do but I hope that is very clear you know what to do with this now
+
+91
+00:10:23.960 --> 00:10:28.000
+let us take a slightly more complex question ok. So, I am going to look at this question.
+
+92
+00:10:28.000 --> 00:10:35.560
+So, if I look at this question then in this question I have a force F how much I do not
+
+93
+00:10:35.560 --> 00:10:43.520
+know but I have another force horizontal direction what should I write this 10 i cap this is
+
+94
+00:10:43.520 --> 00:10:49.640
+already given as minus 5 i cap minus 5 j cap minus 5 i cap minus 5 j cap that is why
+
+95
+00:10:49.639 --> 00:10:54.519
+it is pointing in the downward direction like that. Now, if I look at the acceleration
+
+96
+00:10:54.519 --> 00:11:02.279
+of this 3 kg block that is given do you remember Newton's second law what is it? Net force
+
+97
+00:11:02.279 --> 00:11:07.240
+is mass into acceleration now this force is some angle I do not know what angle let us
+
+98
+00:11:07.240 --> 00:11:12.399
+write this as F vector net force is this force plus this force plus this force.
+
+99
+00:11:12.399 --> 00:11:25.720
+So, if I write it here I will write F plus 10 i cap minus 5 i cap minus 5 j cap this
+
+100
+00:11:25.720 --> 00:11:35.240
+is the total right this must be equal to mass into acceleration. So, 3 times 2 i cap plus
+
+101
+00:11:35.240 --> 00:11:42.159
+3 j cap if you remember earlier I told you first write ma but that was because you were
+
+102
+00:11:42.919 --> 00:11:46.919
+not using i and j with i and j the direction is already there. So, whether you write this
+
+103
+00:11:46.919 --> 00:11:49.079
+first or whether you write that first does not matter.
+
+104
+00:11:49.079 --> 00:11:56.199
+So, if you use vectors it is very straightforward and simple. So, F if I solve this is 6 i cap
+
+105
+00:11:56.199 --> 00:12:03.039
+that is 10 i cap this is 10 minus 5 how much is this 5 i cap. So, when you bring 5 i cap
+
+106
+00:12:03.039 --> 00:12:10.360
+here 6 minus 5 1 so, this is going to be 1 i cap this is 9 j cap that is minus 5 j cap
+
+107
+00:12:10.360 --> 00:12:19.000
+so, when it comes here it will become plus 5 9 plus 5 14. So, that means the force unknown
+
+108
+00:12:19.000 --> 00:12:28.279
+force here we found is i cap plus 14 j cap it is a very large force if you want its magnitude
+
+109
+00:12:28.279 --> 00:12:36.240
+what will it be root of 1 square because it is i cap means 1 i cap plus 14 square. So,
+
+110
+00:12:36.320 --> 00:12:41.039
+that will be the magnitude of this force ok. So, I hope you know how to find this if acceleration
+
+111
+00:12:41.039 --> 00:12:43.120
+is given you can find the unknown force.
+
+112
+00:12:43.120 --> 00:12:49.360
+Now, let us look at this case here the actual acceleration was given now let us let me explain
+
+113
+00:12:49.360 --> 00:12:55.600
+what this question is like. So, you have a 3 k g block you have 1 force minus 5 i cap
+
+114
+00:12:55.600 --> 00:13:04.639
+plus 3 j cap another force do not know F a third force which is 3 i cap plus 6 j cap
+
+115
+00:13:04.639 --> 00:13:13.360
+newtons in that direction I have been told that this block this object is moving vertically
+
+116
+00:13:13.360 --> 00:13:22.120
+up no horizontal motion no horizontal acceleration means what net force in the horizontal direction
+
+117
+00:13:22.120 --> 00:13:35.360
+must be 0 ok. So, let us think about it this is only j cap i cap is 0 only j cap ok. So,
+
+118
+00:13:35.360 --> 00:13:38.960
+for example, this was one of the questions that came up in need one of similar kind of
+
+119
+00:13:38.960 --> 00:13:45.600
+question came up where what is given is you want this force such that it is only going
+
+120
+00:13:45.600 --> 00:13:52.480
+to go vertically. So, what is what are you going to conclude this i cap plus that i cap
+
+121
+00:13:52.480 --> 00:14:00.560
+plus this is also i cap ok this plus this plus this must become what 0 because i cap
+
+122
+00:14:00.560 --> 00:14:07.639
+force is 0 ok. So, how much is my net i cap force. So, I will write i cap how much is the
+
+123
+00:14:07.639 --> 00:14:17.879
+i cap force F plus 3 minus 5 must be 0. So, what does that mean F minus 2 is 0. So, F must
+
+124
+00:14:17.879 --> 00:14:25.480
+be equal to 2 newtons. So, have I found out what is this force 2 newtons in the i cap
+
+125
+00:14:25.480 --> 00:14:32.360
+direction now suppose they ask you what is this acceleration find this acceleration well
+
+126
+00:14:32.639 --> 00:14:39.240
+this force plus this force plus this force became 0 what is remaining this plus this.
+
+127
+00:14:39.240 --> 00:14:51.039
+So, how much is the net force 9 j cap newtons. So, F net is 9 j cap newtons what happened
+
+128
+00:14:51.039 --> 00:14:58.159
+to i cap became 0 cancelled out, but if it is 9 j cap net force by mass will be the acceleration
+
+129
+00:14:58.159 --> 00:15:09.679
+net force is 9 mass is 3. So, net force by mass 3. So, acceleration is F net by mass
+
+130
+00:15:09.679 --> 00:15:15.600
+and so that is going to give me 9 divided by 3. So, it is going to be 3 j cap units
+
+131
+00:15:15.600 --> 00:15:23.519
+meters per second square understood. So, this way what I have done is that we can find both
+
+132
+00:15:23.519 --> 00:15:29.079
+the force as well as the acceleration, but notice acceleration was not given in the beginning
+
+133
+00:15:29.079 --> 00:15:33.480
+what was given is that it is going to be vertical that was that is all that was given. So, is
+
+134
+00:15:33.480 --> 00:15:38.039
+that clear how to apply something like this if the force is given in terms of i and j
+
+135
+00:15:38.039 --> 00:15:41.000
+you should be able to combine it like this and solve.
+
+136
+00:15:41.000 --> 00:15:47.480
+Now, what if the force is not given as i and j what do I do well you resolve. So, let us
+
+137
+00:15:47.480 --> 00:15:55.080
+learn how to do that many times we will be given forces that are inclined at some angle
+
+138
+00:15:55.080 --> 00:16:04.560
+let us say that this was a force F and it makes some angle theta with the horizontal.
+
+139
+00:16:04.560 --> 00:16:11.920
+Now, this is not given in the form of i and j i cap j cap. So, we will convert it how
+
+140
+00:16:11.920 --> 00:16:17.880
+much i cap this much i cap plus this much j cap, but what is this much how do I know
+
+141
+00:16:17.880 --> 00:16:26.240
+what is this much. So, let us say it was x i cap y j cap, but you know that this length
+
+142
+00:16:26.240 --> 00:16:37.520
+is F this length is x and this length is y. Then y by F what is y by F it is the opposite
+
+143
+00:16:37.519 --> 00:16:44.399
+side of this right angle triangle by the hypotenuse what is opposite by hypotenuse sin theta.
+
+144
+00:16:44.399 --> 00:16:52.279
+So, this is sin of this angle opposite by hypotenuse. So, what is y F sin theta. So,
+
+145
+00:16:52.279 --> 00:17:05.839
+I will write this as F sin theta j cap and then x by F x by F is cos theta. So, that
+
+146
+00:17:05.839 --> 00:17:14.000
+means x is F cos theta. So, instead of writing it as x i cap I will write it as F cos theta
+
+147
+00:17:14.000 --> 00:17:19.439
+i cap. In fact, you should do this all the time automatically you look at this force
+
+148
+00:17:19.439 --> 00:17:29.480
+and then you immediately say what is this component we call this the component F theta
+
+149
+00:17:29.480 --> 00:17:41.480
+F cos theta other side F sin theta always F cos theta is easy F cos theta F sin theta
+
+150
+00:17:41.480 --> 00:17:46.519
+is that okay. So, F you can rewrite. So, suppose I want to rewrite F I will write it like this
+
+151
+00:17:46.519 --> 00:17:57.319
+okay. So, F you can write it as F cos theta i cap F cos theta i cap what is this F just
+
+152
+00:17:57.319 --> 00:18:03.919
+the magnitude it is just the size okay F cos theta i cap makes it with direction plus
+
+153
+00:18:03.919 --> 00:18:12.879
+F sin theta j cap. Now that means I need to remember cos theta sin theta various values
+
+154
+00:18:12.879 --> 00:18:18.279
+for it I will given you a list here you know this already most of you probably know for
+
+155
+00:18:18.279 --> 00:18:26.480
+angle 0, 30, 45, 60 and 90 you know sin 0 is 0 sin 30 is half okay sin 45 is 1 by root
+
+156
+00:18:26.480 --> 00:18:32.079
+2 sin 60 is root 3 by 2 and sin 90 is 1 okay. Now if you do not remember you should definitely
+
+157
+00:18:32.079 --> 00:18:34.960
+memorize this because this is going to come up everywhere.
+
+158
+00:18:34.960 --> 00:18:46.000
+Two important extra information sin 37 is almost 3 by 5 okay. So, now if you look at
+
+159
+00:18:46.039 --> 00:18:54.400
+this triangle 3, 4, 5 you remember this triangle right. Now if you take this triangle this
+
+160
+00:18:54.400 --> 00:19:01.920
+angle is almost 37 degrees exactly you should look at it it will be some 36.9 something
+
+161
+00:19:01.920 --> 00:19:06.960
+slightly less than 37 but we will call it 37 degrees many questions we will say angle
+
+162
+00:19:06.960 --> 00:19:17.360
+is 37 sin 37 3 by 5 cos 37 4 by 5 and then if you look at this angle this angle is 53
+
+163
+00:19:17.360 --> 00:19:28.200
+degrees. So, sin 53 4 by 5 cos 53 3 by 5 just remember this is a very important value to
+
+164
+00:19:28.200 --> 00:19:34.440
+just keep in mind. So, many questions we will say 37 degrees advantages sin 37 3 by 5 rational
+
+165
+00:19:34.440 --> 00:19:41.480
+number integers again there 4 by 5 integers whereas if you take sin 60 root 3 is difficult
+
+166
+00:19:41.480 --> 00:19:45.640
+to play with cos 60 is very nice but sin 60 is not okay.
+
+167
+00:19:45.640 --> 00:19:55.200
+Let us take an example. So, for example suppose I had 20 Newton force making an angle of 60
+
+168
+00:19:55.200 --> 00:20:03.680
+degrees write this force as a vector. So, if I write this force as a vector how much is
+
+169
+00:20:03.920 --> 00:20:16.799
+this 20 cos 60. So, 20 cos 60 look at cos 60 cos 60 is half which means 10 like this
+
+170
+00:20:16.799 --> 00:20:30.200
+and then what about this 20 sin 60 sin 60 is root 3 by 2. So, 10 root 3 therefore if
+
+171
+00:20:30.200 --> 00:20:49.559
+I call this force F what is F 10 i cap plus 10 root 3 j cap Newton's why is this useful
+
+172
+00:20:49.559 --> 00:20:54.480
+because if I now have a question where there is one force like this one force like this
+
+173
+00:20:54.480 --> 00:20:58.799
+one force like this and I want to add you will see that this becomes extremely useful
+
+174
+00:20:58.799 --> 00:21:06.559
+okay. Now, if this was not 60 but it was 53 degrees then I will use sin 53 4 by 5 okay.
+
+175
+00:21:06.559 --> 00:21:13.639
+So, cos 53 4 for first for this one 3 by 5 and sin 63 for that which is 4 by 5 okay.
+
+176
+00:21:13.639 --> 00:21:16.879
+You will see that there would not be a root 3 there will just be a 4 by 5 which makes
+
+177
+00:21:16.879 --> 00:21:21.119
+it easy for calculation okay. Otherwise you should know what to do with that root 3 as
+
+178
+00:21:21.119 --> 00:21:26.359
+well. So, let us do one question where we have multiple forces and we want to find the
+
+179
+00:21:26.360 --> 00:21:31.560
+acceleration. So, now let us look at this question. So, in this question there is a
+
+180
+00:21:31.560 --> 00:21:37.880
+4 kg block in space assume this whole thing is in space what is the difference if it was
+
+181
+00:21:37.880 --> 00:21:42.040
+not in space then I am going to have to worry about gravitational force which I am not drawing
+
+182
+00:21:42.040 --> 00:21:48.120
+here okay. So, it is in space now there is one force which is minus 3 i plus 7 j Newton
+
+183
+00:21:48.120 --> 00:21:53.760
+then there is one which is 4 Newton upward you can always add the j and say this is 4
+
+184
+00:21:53.759 --> 00:22:01.279
+j cap Newtons okay. Why is this minus because it is this way minus 3 i cap plus 7 because
+
+185
+00:22:01.279 --> 00:22:07.160
+it is upward. So, this way this way now that force I do not know in the i j form okay but
+
+186
+00:22:07.160 --> 00:22:14.119
+I know it is 10 Newton magnitude at an angle of 30 degrees and then there is a 3 i cap
+
+187
+00:22:14.119 --> 00:22:20.440
+because it is a horizontal force. What is the acceleration of the 4 kg block? So, that
+
+188
+00:22:20.440 --> 00:22:25.759
+is the question how will we go about it we will need to find the net force and then divide
+
+189
+00:22:25.759 --> 00:22:35.759
+by the mass. So, net force by mass what is the mass 4 kg. So, this is easy what is the
+
+190
+00:22:35.759 --> 00:22:41.720
+problem net force that is the problem. So, if I want this acceleration I need to find
+
+191
+00:22:41.720 --> 00:22:47.680
+net force this is easy to add this is easy to add this is easy to add what is the problem
+
+192
+00:22:47.680 --> 00:22:53.360
+that fellow is the problem why because it is some weird angle what do I do I will rewrite
+
+193
+00:22:53.360 --> 00:23:01.519
+this in the form of i and j how much i 10 cos 30 10.
+
+194
+00:23:01.519 --> 00:23:09.720
+So, let us write here 10 cos 30 what is cos 30 I will write cos 30 but you should be able
+
+195
+00:23:09.720 --> 00:23:16.600
+to calculate cos 30 is equal to root 3 by 2 you can see there it is root 3 by 2 now what
+
+196
+00:23:16.600 --> 00:23:21.920
+happens if you forget bad luck you need to remember these values ok this is going to
+
+197
+00:23:21.920 --> 00:23:28.080
+come up 100 times well 1000 times you will find this everywhere you should memorize this
+
+198
+00:23:28.080 --> 00:23:33.040
+entire set and you should not take time to come up with it you say cos 30 tau all root
+
+199
+00:23:33.040 --> 00:23:46.160
+3 by 2. So, 10 times root 3 by 2 10 root 3 by 2 is how much 5 root 3 Newtons ok, but
+
+200
+00:23:46.160 --> 00:23:55.600
+then there is also this component how much is this component 10 cos 30 10 sin 30. So,
+
+201
+00:23:55.600 --> 00:24:02.680
+10 sin 30 is how much half this is cos 30 that is automatically sin 30 ok. So, how much
+
+202
+00:24:02.680 --> 00:24:11.960
+is this 10 into half is 5 Newtons. So, this force you can rewrite this force as 5 root
+
+203
+00:24:11.960 --> 00:24:20.519
+3 i cap plus because it is pointing up if this force was pointing down it will be minus
+
+204
+00:24:20.519 --> 00:24:29.840
+5 j cap, but this is going up. So, therefore, it is plus 5 j cap Newtons now can you add
+
+205
+00:24:29.840 --> 00:24:35.960
+up all the vectors you can write. So, let us quickly add minus 3 i cap my. So, let me
+
+206
+00:24:35.960 --> 00:24:44.319
+do all this minus 3 i cap I do not need to add this do I need to add that yes plus 3
+
+207
+00:24:44.319 --> 00:24:59.759
+i cap. So, this is done this is done plus 5 root 3 i cap this is also done now j cap
+
+208
+00:24:59.759 --> 00:25:05.839
+what is the j cap. So, plus so let me actually write the j cap down here ok. So, plus so
+
+209
+00:25:05.839 --> 00:25:21.359
+much j cap what j cap 7 j cap 4 j cap anything else done done done done done right this part
+
+210
+00:25:21.360 --> 00:25:31.800
+but that is not yet done. So, plus 5 j cap divided by 4 k g this many Newtons by so
+
+211
+00:25:31.800 --> 00:25:39.320
+many k g's this is going to give me meters per second square si units. Acceleration of
+
+212
+00:25:39.320 --> 00:25:48.720
+the 4 k g block vector vector acceleration minus 3 plus 3 cancels 5 root 3 divided by
+
+213
+00:25:48.720 --> 00:26:02.319
+4. So, 5 root 3 by 4 i cap and what is this 5 plus 7 7 plus 5 12 12 plus 4 16 16 divided
+
+214
+00:26:02.319 --> 00:26:13.000
+by 4 4. So, 4 j cap meters per second square this is the vector but suppose they ask you
+
+215
+00:26:13.000 --> 00:26:17.079
+look at the direction this is something i cap something j cap it is going in that direction
+
+216
+00:26:17.079 --> 00:26:22.240
+this is a messy question but you got an easy answer suppose somebody says no I do not want
+
+217
+00:26:22.240 --> 00:26:30.599
+this I want a magnitude which means we write it like this just a no arrow on top.
+
+218
+00:26:30.599 --> 00:26:39.039
+What is the answer root of this square plus that square what is this square 5 square will
+
+219
+00:26:39.039 --> 00:26:49.440
+be 25 4 square 16 root of 3 whole square will basically give me 3 plus 4 square which is
+
+220
+00:26:49.440 --> 00:26:56.000
+16 you can take this there simplify 75 plus 15 16 is going to be something right 256 you
+
+221
+00:26:56.000 --> 00:27:01.240
+can add it then you can take the square root but you will get some number weird number and
+
+222
+00:27:01.240 --> 00:27:05.559
+that is the answer. So, much meters per second square obviously you need to simplify I am
+
+223
+00:27:05.599 --> 00:27:10.480
+not doing that. So, is that clear to everybody you understood how to solve this problem because
+
+224
+00:27:10.480 --> 00:27:14.079
+what is important here is that you resolve this force.
+
+225
+00:27:14.079 --> 00:27:20.200
+Now, this was given in i and j suppose this was also given with an angle you will resolve
+
+226
+00:27:20.200 --> 00:27:25.679
+suppose instead of giving you this angle or this angle this angle was given then you will
+
+227
+00:27:25.679 --> 00:27:33.759
+say this force cos will be that because this angle can also be theta then you will say
+
+228
+00:27:33.879 --> 00:27:40.680
+f cos theta will be that component f sin theta will be this component you have to be bit
+
+229
+00:27:40.680 --> 00:27:45.960
+careful then cos theta j cap sin theta will give you minus i cap because it is pointing
+
+230
+00:27:45.960 --> 00:27:51.759
+in that direction luckily we do not have this in this question but we may have now unfortunately
+
+231
+00:27:51.759 --> 00:27:58.720
+all the questions we were doing are all in space I did not have to count gravity I did
+
+232
+00:27:58.720 --> 00:28:02.519
+not have to worry about a floor now sometimes all of that will matter.
+
+233
+00:28:02.639 --> 00:28:08.599
+So, let us take a couple of questions where you have forces acting at angles but you have
+
+234
+00:28:08.599 --> 00:28:13.960
+it with on the surface of the earth that means there is imagine a big box I place it on a
+
+235
+00:28:13.960 --> 00:28:20.759
+table and I am pulling like this my force is at an angle but the block is probably going
+
+236
+00:28:20.759 --> 00:28:25.039
+to move horizontally it may also move up but it may move horizontally. So, let us look
+
+237
+00:28:25.039 --> 00:28:26.039
+at a question like that.
+

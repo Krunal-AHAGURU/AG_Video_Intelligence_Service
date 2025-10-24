@@ -1,286 +1,110 @@
 {
-  "generated_timestamp": "20251021_145404",
+  "generated_timestamp": "20251024_140330",
   "summary_data": {
     "overall_summary": {
-      "summary_title": "Understanding Isomerism: Structural and Stereo Isomers",
-      "summary_text": "This lecture provides a comprehensive overview of isomerism in organic compounds, a crucial concept for understanding the diversity of chemical structures and their properties. The session begins by defining isomerism as compounds with the same molecular formula but differing physical and chemical properties. A key distinction is made between structural and stereo isomers, setting the stage for a deeper exploration of each type.\n\nThe lecture then delves into structural isomerism, focusing on chain and position isomers. Clear examples are provided to illustrate how differences in the carbon chain length or the position of substituents lead to distinct isomers. The discussion extends to alkanes such as butane, pentane, and hexane, demonstrating how to identify and name their various isomeric forms using both IUPAC and common nomenclature.\n\nFinally, the lecture examines isomerism in alkyl groups, emphasizing how substituting a hydrogen atom with a halogen or other substituent can create different isomers. Propyl and butyl groups are used as examples, highlighting the importance of identifying identical carbon atoms within a molecule to determine the number of possible isomers. The session concludes by differentiating between chain and position isomers through detailed examples, solidifying the core concepts of isomerism."
+      "summary_title": "Exploring Isomerism: Structural and Chain Isomers",
+      "summary_text": "This lecture introduces the fundamental concept of isomerism in organic chemistry, focusing on structural isomerism and its subtypes, particularly chain and position isomerism. Isomers are defined as compounds sharing the same molecular formula but exhibiting distinct physical and chemical properties. The session begins by differentiating between structural and stereo isomers, setting the stage for a deeper dive into structural isomerism. Structural isomers possess different structural formulas, while stereo isomers share the same structure but differ in spatial arrangement.\n\nThe core of the lecture revolves around chain and position isomerism. Chain isomers differ in the arrangement of the carbon skeleton, leading to variations in the main carbon chain length. Position isomers, on the other hand, maintain the same carbon skeleton but differ in the location of substituents. The discussion is illustrated with examples of alkanes like butane, pentane, and hexane, demonstrating how to identify and name different isomers using both IUPAC and common nomenclature.\n\nThe lecture further explores isomerism in alkyl groups, highlighting the varying number of isomers possible for propyl and butyl groups when substituted with halogens. The systematic approach to identifying and drawing isomers, along with clear explanations of IUPAC naming conventions, provides students with a solid foundation for understanding and predicting isomerism in organic compounds. This knowledge is crucial for advanced studies in organic chemistry and related fields like biochemistry and pharmacology.\n\nThe final takeaway emphasizes the practical application of isomerism concepts, particularly in distinguishing between chain and position isomers. Students are encouraged to practice drawing isomers for higher alkanes and alkyl groups to reinforce their understanding and problem-solving skills."
     },
-    "starting_build_up": "The session begins with defining isomerism, explaining it as compounds sharing the same molecular formula but exhibiting different physical and chemical properties. Students will learn to distinguish between structural and stereo isomers, and then delve into chain and position isomerism with examples using alkanes and alkyl groups.",
-    "timestamp_wise_summary": [
-      {
-        "start_time": "00:00:00.000",
-        "end_time": "00:00:12.240",
-        "summary_title": "Introduction to Isomerism",
-        "summary": "The lecture introduces the topic of isomerism."
-      },
-      {
-        "start_time": "00:00:12.240",
-        "end_time": "00:00:42.920",
-        "summary_title": "Defining Isomers",
-        "summary": "Isomers are defined as compounds having the same molecular formula but differing in physical and chemical properties."
-      },
-      {
-        "start_time": "00:00:42.920",
-        "end_time": "00:01:13.960",
-        "summary_title": "Structural Isomerism",
-        "summary": "Structural isomerism is introduced as a type of isomerism where compounds have the same molecular formula but different structural formulas."
-      },
-      {
-        "start_time": "00:01:15.960",
-        "end_time": "00:01:30.680",
-        "summary_title": "Stereo Isomerism",
-        "summary": "Stereo isomers have the same molecular formula and structure but differ in physical and chemical properties."
-      },
-      {
-        "start_time": "00:01:33.560",
-        "end_time": "00:01:46.120",
-        "summary_title": "Types of Structural Isomerism",
-        "summary": "Chain, position, functional, total, ring chain, and metomerism are listed as types of structural isomerism."
-      },
-      {
-        "start_time": "00:01:46.200",
-        "end_time": "00:02:00.359",
-        "summary_title": "Types of Stereo Isomerism",
-        "summary": "Stereo isomerism is divided into configuration and conformational isomerism, with geometrical and optical isomerism falling under configuration."
-      },
-      {
-        "start_time": "00:02:00.359",
-        "end_time": "00:02:44.600",
-        "summary_title": "Chain vs. Position Isomerism Defined",
-        "summary": "Chain isomers differ in the number of carbons in the main chain, while position isomers have the same main chain length but differ in substituent positions."
-      },
-      {
-        "start_time": "00:02:44.600",
-        "end_time": "00:03:07.160",
-        "summary_title": "Isomerism in Methane, Ethane, and Propane",
-        "summary": "Methane, ethane, and propane are discussed in terms of their isomeric possibilities.  Propane doesn't exhibit isomerism."
-      },
-      {
-        "start_time": "00:03:07.160",
-        "end_time": "00:03:56.280",
-        "summary_title": "Isomers of Butane",
-        "summary": "Butane (C4H10) is presented as having two isomers: n-butane and isobutane (2-methylpropane). Both IUPAC and common names are provided."
-      },
-      {
-        "start_time": "00:03:57.080",
-        "end_time": "00:04:47.240",
-        "summary_title": "Isomers of Pentane",
-        "summary": "Pentane (C5H12) is shown to have three isomers: n-pentane, isopentane (2-methylbutane), and neopentane (2,2-dimethylpropane). Both common and IUPAC names are given."
-      },
-      {
-        "start_time": "00:04:47.240",
-        "end_time": "00:06:01.319",
-        "summary_title": "Isomers of Hexane",
-        "summary": "Hexane (C6H14) is presented with its five isomers, showing the increasing complexity of isomer identification with larger alkanes."
-      },
-      {
-        "start_time": "00:06:01.319",
-        "end_time": "00:07:25.000",
-        "summary_title": "Naming Hexane Isomers",
-        "summary": "The process of naming the hexane isomers is demonstrated, using both common names (isohexane, neohexane) and IUPAC nomenclature (e.g., 2-methylpentane, 3-methylpentane, 2,3-dimethylbutane, 2,2-dimethylbutane)."
-      },
-      {
-        "start_time": "00:07:25.160",
-        "end_time": "00:08:33.240",
-        "summary_title": "Distinguishing Chain and Position Isomers in Hexane",
-        "summary": "The lecture clarifies the difference between chain and position isomerism using the hexane isomers as examples. Chain isomers have different carbon chain lengths, while position isomers have the same chain length but different substituent positions."
-      },
-      {
-        "start_time": "00:08:33.240",
-        "end_time": "00:08:55.399",
-        "summary_title": "Number of Isomers in Higher Alkanes",
-        "summary": "The number of isomers for heptane (9), octane (18), nonane (35), and decane (75) are mentioned, encouraging students to draw the isomers themselves."
-      },
-      {
-        "start_time": "00:08:55.399",
-        "end_time": "00:09:26.120",
-        "summary_title": "Isomerism of Alkyl Groups: Methyl and Ethyl",
-        "summary": "The concept of alkyl groups (methyl, ethyl) is introduced, explaining that methyl and ethyl groups do not exhibit isomerism when a single substituent is added."
-      },
-      {
-        "start_time": "00:09:26.120",
-        "end_time": "00:09:54.840",
-        "summary_title": "Isomers of Propyl Group",
-        "summary": "Propyl group (C3H7-) is shown to have two isomers: 1-iodopropane and 2-iodopropane when iodine is substituted."
-      },
-      {
-        "start_time": "00:09:57.399",
-        "end_time": "00:11:56.120",
-        "summary_title": "Isomers of Butyl Group",
-        "summary": "The lecture thoroughly explains how to determine the number of possible isomers for the butyl group when a chlorine atom is substituted. The process involves identifying identical carbon atoms within the n-butane and isobutane structures."
-      }
-    ],
-    "end_summary": "The lecture concludes by summarizing the number of isomers for butane, pentane, and hexane. The discussion transitions to isomerism in alkyl groups, illustrated with examples of propyl and butyl groups. The key takeaway is that understanding the structure and connectivity of atoms within a molecule is essential for identifying and naming isomers accurately.",
+    "starting_build_up": "The session starts by defining isomerism, highlighting that isomers are compounds with the same molecular formula but different physical and chemical properties. The lecture then sets the stage for exploring the different types of isomerism, specifically structural and stereo isomerism, with a focus on chain and position isomers. Students will learn to identify and differentiate between these types of isomers through examples and nomenclature.",
+    "end_summary": "The lecture concludes by summarizing the key differences between chain and position isomers, illustrating how the number of possible isomers increases with the size and complexity of the alkane. It also provides a foundation for understanding isomerism in alkyl groups and emphasizes the importance of IUPAC nomenclature. Students are encouraged to practice drawing isomers for higher alkanes to solidify their understanding.",
     "chapters": [
       {
         "chapter_title": "Introduction to Isomerism",
         "start_time": "00:00:00.000",
-        "end_time": "00:00:42.920",
-        "description": "Defining isomers and introducing the concept of isomerism."
+        "end_time": "00:00:17.199",
+        "summary_text": "This section defines isomerism as the phenomenon where compounds have the same molecular formula but different structural formulas and, consequently, different physical and chemical properties. It lays the foundation for distinguishing between structural and stereo isomers.",
+        "description": "Defining isomerism and its importance."
       },
       {
         "chapter_title": "Structural vs. Stereo Isomerism",
         "start_time": "00:00:42.920",
         "end_time": "00:01:30.680",
-        "description": "Distinguishing between structural and stereo isomers and their fundamental differences."
-      },
-      {
-        "chapter_title": "Types of Isomerism",
-        "start_time": "00:01:33.560",
-        "end_time": "00:02:00.359",
-        "description": "Overview of various types of structural and stereo isomerism."
+        "summary_text": "This chapter explains the difference between structural and stereo isomerism. Structural isomers have different structural formulas, while stereo isomers share the same structure but differ in the spatial arrangement of atoms.",
+        "description": "Differentiating structural and stereo isomers."
       },
       {
         "chapter_title": "Chain and Position Isomerism",
-        "start_time": "00:02:00.359",
+        "start_time": "00:01:40.040",
         "end_time": "00:02:44.600",
-        "description": "Detailed explanation of chain and position isomerism, highlighting the differences in carbon chain length and substituent positions."
+        "summary_text": "Chain isomerism is defined by compounds having the same molecular formula but differing in the number of carbon atoms in the main chain. Position isomerism involves compounds with the same carbon skeleton but variations in the position of substituents.",
+        "description": "Defining chain and position isomerism."
       },
       {
-        "chapter_title": "Isomerism in Alkanes (C1-C6)",
+        "chapter_title": "Isomers of Butane, Pentane, and Hexane",
         "start_time": "00:02:44.600",
         "end_time": "00:07:25.000",
-        "description": "Examples of isomerism in methane, ethane, propane, butane, pentane and hexane, demonstrating how to draw and name different isomers."
+        "summary_text": "This section provides examples of chain isomers for butane (2 isomers), pentane (3 isomers), and hexane (5 isomers). Both IUPAC and common names are used to identify the different isomers, such as n-butane, isobutane, n-pentane, isopentane, neopentane, and various isomers of hexane.",
+        "description": "Examples of isomers for common alkanes."
       },
       {
-        "chapter_title": "Chain vs. Position Isomerism in Hexane",
+        "chapter_title": "Distinguishing Chain and Position Isomers with Hexane Examples",
         "start_time": "00:07:25.160",
         "end_time": "00:08:33.240",
-        "description": "Applying the concepts of chain and position isomerism to the specific case of hexane isomers."
+        "summary_text": "The lecture uses hexane isomers to illustrate the difference between chain and position isomers. By numbering the carbon atoms, it is shown how variations in the carbon chain length result in chain isomers, while differences in substituent positions lead to position isomers.",
+        "description": "Applying the definitions to identify isomers."
       },
       {
         "chapter_title": "Isomerism in Alkyl Groups",
         "start_time": "00:08:55.399",
         "end_time": "00:11:56.120",
-        "description": "Introduction to isomerism in alkyl groups, with examples of propyl and butyl groups, and substitution with halogens."
-      }
-    ],
-    "chapter_wise_summary": [
-      {
-        "chapter_title": "Introduction to Isomerism",
-        "summary_text": "This chapter introduces the fundamental concept of isomerism. Isomers are defined as compounds that share the same molecular formula but exhibit distinct physical and chemical properties. This chapter lays the groundwork for understanding the structural variations that can occur within molecules."
-      },
-      {
-        "chapter_title": "Structural vs. Stereo Isomerism",
-        "summary_text": "This section dives into the two primary categories of isomerism: structural and stereo isomerism. Structural isomers differ in their bonding arrangements, while stereo isomers have the same connectivity but differ in their spatial arrangement. Understanding this distinction is crucial for classifying isomers accurately."
-      },
-      {
-        "chapter_title": "Types of Isomerism",
-        "summary_text": "This chapter provides an overview of the different types of structural and stereo isomerism. This section helps students appreciate the variety of ways that molecules can be structurally different while sharing the same molecular formula."
-      },
-      {
-        "chapter_title": "Chain and Position Isomerism",
-        "summary_text": "This chapter provides a detailed explanation of chain and position isomerism, two key types of structural isomerism. Chain isomers have different arrangements of the carbon backbone, while position isomers differ in the placement of substituents on the same carbon chain. Understanding these concepts is essential for identifying and distinguishing between different structural isomers."
-      },
-      {
-        "chapter_title": "Isomerism in Alkanes (C1-C6)",
-        "summary_text": "This chapter uses the examples of methane, ethane, propane, butane, pentane and hexane to illustrate how to draw and name different isomers. The increase in isomers as the number of carbon atoms increase is also emphasized. Both common and IUPAC nomenclature is shown in this chapter."
-      },
-      {
-        "chapter_title": "Chain vs. Position Isomerism in Hexane",
-        "summary_text": "Here, the lecture applies the concepts of chain and position isomerism to the specific case of hexane isomers, offering a practical application of the theoretical knowledge gained earlier. By analyzing the different hexane isomers, students can solidify their understanding of how to distinguish between chain and position isomers."
-      },
-      {
-        "chapter_title": "Isomerism in Alkyl Groups",
-        "summary_text": "This final chapter transitions to isomerism in alkyl groups, using the examples of propyl and butyl groups to demonstrate the effects of halogen substitution on isomer formation. This chapter reinforces the importance of understanding molecular structure and connectivity in determining isomeric possibilities."
+        "summary_text": "The final section discusses isomerism in alkyl groups (methyl, ethyl, propyl, and butyl), focusing on how the number of possible isomers changes when a hydrogen atom is replaced with a halogen (e.g., chlorine or iodine). Examples include the isomers of propyl iodide and butyl chloride.",
+        "description": "Extending isomerism to alkyl groups."
       }
     ],
     "tags": [
       "isomerism",
-      "structural isomers",
-      "stereo isomers",
-      "chain isomers",
-      "position isomers",
+      "structural isomerism",
+      "stereo isomerism",
+      "chain isomerism",
+      "position isomerism",
+      "IUPAC nomenclature",
       "alkanes",
       "alkyl groups",
-      "IUPAC nomenclature",
-      "common names",
-      "hexane isomers",
-      "butane isomers",
-      "pentane isomers"
-    ],
-    "keyframes": [
-      {
-        "timestamp": "00:00:32.320",
-        "description": "Definition of isomers: Same molecular formula, different physical and chemical properties."
-      },
-      {
-        "timestamp": "00:00:57.320",
-        "description": "Definition of structural isomers: Same molecular formula, different structural formula."
-      },
-      {
-        "timestamp": "00:02:24.120",
-        "description": "Chain isomerism: Difference in the number of carbon in the main chain."
-      },
-      {
-        "timestamp": "00:02:30.840",
-        "description": "Position isomerism: Same number of carbons in the main chain, different substituent positions."
-      },
-      {
-        "timestamp": "00:03:27.080",
-        "description": "Example: n-butane isomer."
-      },
-      {
-        "timestamp": "00:03:35.480",
-        "description": "Example: Isobutane (2-methylpropane) isomer."
-      },
-      {
-        "timestamp": "00:04:26.360",
-        "description": "Example: Neopentane (2,2-dimethylpropane) isomer."
-      },
-      {
-        "timestamp": "00:07:37.560",
-        "description": "Illustration of chain isomers vs. position isomers using hexane."
-      },
-      {
-        "timestamp": "00:09:31.240",
-        "description": "Illustration of propyl isomers with iodine substituent."
-      },
-      {
-        "timestamp": "00:10:03.800",
-        "description": "Illustration of butyl isomers with chlorine substituent."
-      }
+      "butane",
+      "pentane",
+      "hexane",
+      "organic chemistry"
     ],
     "Q&A": [
       {
-        "question": "What is the fundamental difference between structural and stereo isomers?",
-        "answer": "Structural isomers differ in their bonding arrangements, while stereo isomers have the same connectivity but differ in their spatial arrangement of atoms."
+        "question": "What are isomers and how do they differ from each other?",
+        "answer": "Isomers are compounds that have the same molecular formula but different structural arrangements, leading to variations in their physical and chemical properties."
       },
       {
-        "question": "Define chain isomerism and provide an example.",
-        "answer": "Chain isomerism occurs when isomers have different arrangements of the carbon backbone. For example, n-butane and isobutane are chain isomers because they have different carbon chain arrangements."
+        "question": "Explain the difference between structural and stereo isomers.",
+        "answer": "Structural isomers have different structural formulas (i.e., different connectivity of atoms), while stereo isomers have the same structural formula but different spatial arrangements of atoms."
       },
       {
-        "question": "Explain position isomerism and provide an example.",
-        "answer": "Position isomerism occurs when isomers have the same carbon chain arrangement but differ in the location of substituents. For example, 1-chlorobutane and 2-chlorobutane are position isomers because the chlorine atom is located at different positions on the butane chain."
+        "question": "What is chain isomerism, and how does it arise?",
+        "answer": "Chain isomerism occurs when compounds have the same molecular formula but differ in the arrangement of the carbon skeleton, resulting in variations in the length of the main carbon chain."
       },
       {
-        "question": "Draw all the structural isomers of pentane (C5H12) and name them using IUPAC nomenclature.",
-        "answer": "The isomers of pentane are: n-pentane, 2-methylbutane, and 2,2-dimethylpropane."
+        "question": "What is position isomerism, and how does it differ from chain isomerism?",
+        "answer": "Position isomerism occurs when compounds have the same carbon skeleton but differ in the position of substituents or functional groups attached to the main chain. Unlike chain isomers, the length of the main carbon chain remains the same."
       },
       {
-        "question": "A compound has a molecular formula of C4H10O. Draw two possible structural isomers and name them. Indicate the type of isomerism they exhibit.",
-        "answer": "Possible isomers are: Butan-1-ol and 2-methylpropan-1-ol (isobutanol). They exhibit chain isomerism."
+        "question": "Draw all the possible structural isomers of pentane (C<sub>5</sub>H<sub>12</sub>) and name them using IUPAC nomenclature.",
+        "answer": "The structural isomers of pentane are: 1) n-pentane (CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>), 2) 2-methylbutane (CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>), and 3) 2,2-dimethylpropane (CH<sub>3</sub>C(CH<sub>3</sub>)<sub>2</sub>CH<sub>3</sub>)."
       },
       {
-        "question": "How many structural isomers are possible for hexane (C6H14)?",
-        "answer": "There are five structural isomers of hexane."
+        "question": "How many structural isomers are possible for hexane (C<sub>6</sub>H<sub>14</sub>)? Name them.",
+        "answer": "There are five structural isomers of hexane: n-hexane, 2-methylpentane, 3-methylpentane, 2,2-dimethylbutane, and 2,3-dimethylbutane."
       },
       {
-        "question": "A hydrocarbon has a molecular formula C5H12. Upon monochlorination, it yields only one product. Identify the hydrocarbon.",
-        "answer": "The hydrocarbon is neopentane (2,2-dimethylpropane)."
+        "question": "A compound has a molecular formula of C<sub>4</sub>H<sub>9</sub>Cl. Draw all possible structural isomers and provide their IUPAC names.",
+        "answer": "The isomers are: 1) 1-chlorobutane, 2) 2-chlorobutane, 3) 1-chloro-2-methylpropane, 4) 2-chloro-2-methylpropane."
       },
       {
-        "question": "Two organic compounds have the same molecular formula C3H8O. One reacts with sodium metal to liberate hydrogen gas, while the other does not. Draw the structures of the two compounds and explain the observation.",
-        "answer": "The compound that reacts with sodium is propan-1-ol (an alcohol), which has a hydroxyl group (-OH) that can react with sodium to produce hydrogen gas. The other compound is ethyl methyl ether (an ether), which lacks a reactive hydrogen and therefore does not react with sodium."
+        "question": "What are the different isomers possible for propyl group (C<sub>3</sub>H<sub>7</sub>) when substituted with iodine? Draw their structures.",
+        "answer": "The isomers are: 1) 1-iodopropane (CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>I), and 2) 2-iodopropane (CH<sub>3</sub>CHICH<sub>3</sub>)."
       },
       {
-        "question": "Calculate the number of structural isomers possible for an alkane with the molecular formula C7H16.",
-        "answer": "There are 9 structural isomers possible for C7H16 (Heptane)."
+        "question": "Two organic compounds, A and B, have the same molecular formula C<sub>5</sub>H<sub>12</sub>O. Compound A can be oxidized to form a ketone, while compound B can be oxidized to form an aldehyde. What type of isomers are A and B?",
+        "answer": "A and B are functional isomers because they have the same molecular formula but different functional groups (alcohol in both cases, but A forms a ketone implying a secondary alcohol, and B forms an aldehyde implying a primary alcohol)."
       },
       {
-        "question": "An organic compound with molecular formula C4H8 exhibits geometrical isomerism. Draw the structures of the cis and trans isomers of this compound and name them.",
-        "answer": "The compound is but-2-ene. The cis isomer has both methyl groups on the same side of the double bond, while the trans isomer has them on opposite sides."
+        "question": "How many isomers are possible for C<sub>4</sub>H<sub>10</sub>O (alcohols)? Draw their structures and provide IUPAC names.",
+        "answer": "There are four isomers: 1) butan-1-ol (CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH), 2) butan-2-ol (CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub>), 3) 2-methylpropan-1-ol (CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>OH), 4) 2-methylpropan-2-ol ((CH<sub>3</sub>)<sub>3</sub>COH)."
       }
     ]
   }
